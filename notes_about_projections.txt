@@ -1,0 +1,5 @@
+map-dir-natd uses the WGS Pseudo-Mercator (EPSG:3857).
+We are going to inverse-project it to longitude/latitude
+(EPSG:4326).
+
+

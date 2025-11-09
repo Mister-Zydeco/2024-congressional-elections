@@ -1,0 +1,5 @@
+
+1. Investigate todo file formats. :)
+2. Write procure_data.py to download CLerk's pdf and census cd zip files.
+3. Get rolling on streamlit.
+

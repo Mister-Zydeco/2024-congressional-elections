@@ -1,0 +1,30 @@
+[project]
+name = "2024-congressional-elections"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "david", email = "david.nadler@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=5.5.0",
+    "kaleido>=1.2.0",
+    "mypy>=1.18.2",
+    "numpy>=2.3.4",
+    "pdfplumber>=0.11.8",
+    "plotly>=6.4.0",
+    "polars>=1.35.1",
+    "pyproj>=3.7.2",
+    "pyshp>=3.0.2.post1",
+    "shapely>=2.1.2",
+    "us>=3.2.0",
+    "vl-convert-python>=1.8.0",
+]
+
+[project.scripts]
+2024-congressional-elections = "2024_congressional_elections:main"
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"
