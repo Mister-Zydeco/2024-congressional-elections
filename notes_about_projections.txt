@@ -1,4 +1,10 @@
-map-dir-natd uses the WGS Pseudo-Mercator (EPSG:3857).
+
+The International Association of Oil and Gas Producers maintains a
+goeodosy dataset called EPSG (European Petroleum Survey Group
+
+The shapefiles in map-data-ntad use the WGS 84 Pseudo-Mercator projection
+(EPSG:3857).
+
 We are going to inverse-project it to longitude/latitude
 (EPSG:4326).
 
