@@ -90,11 +90,11 @@ class HrElection:
 
     def get_ndistricts_per_state(self) -> pl.DataFrame:
         df: pl.DataFrame = (
-            self.dfs['states']
+            self.dfs['states'].select(SD_COLS).unique()
             .group_by('State\nCode')
             .agg(pl.len().alias('Number of\nDistricts'))
         )
-        self.dfs['ndistricts_per_state'] = df
+        self.dfs['districts_per_state'] = df
         return df
 
     def get_districts_ranked_by_vote(self) -> pl.DataFrame:
@@ -128,6 +128,7 @@ class HrElection:
             self.get_districts_ranked_by_vote()
         df: pl.DataFrame = (
             self.dfs['districts_ranked_by_vote']
+            .select(['State\nCode', 'District\nNumber', 'Party', 'Vote'])
             .with_columns(major_party_selector.alias('Party'))
             .group_by(
                 ['State\nCode', 'District\nNumber', 'Party'],
@@ -147,7 +148,6 @@ class HrElection:
         df: pl.DataFrame = self.dfs['district_winners'].with_columns(
             major_party_selector.alias('Party')
         )
-        print('district_winners with major party columns', df.columns)
         self.dfs['district_winners_with_major_party'] = df
         return df
 
