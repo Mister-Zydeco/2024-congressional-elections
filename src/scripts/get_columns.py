@@ -1,0 +1,33 @@
+from HRElectViz.HrElection import HrElection
+if __name__ == '__main__':
+    dfnames = [
+        'aggregate_vote_by_district',
+        'aggregate_vote_by_state',
+        'district_major_party_vote',
+        'district_winners_with_major_party',
+        'district_winners',
+        'ndistricts_per_state',
+        'districts_ranked_by_vote',
+        'state_nwinners_by_party',
+    ];
+
+    hrelect = HrElection()
+
+    district_cols: set[str] = set()
+    state_cols: set[str] = set()
+    for dfname in dfnames:
+        method = getattr(hrelect, f'get_{dfname}')
+        df = method()
+        to_update = district_cols if 'district' in dfname else state_cols
+        to_update.update(df.columns)
+    common_cols = district_cols.intersection(state_cols)
+    district_cols = district_cols.difference(common_cols)
+    state_cols = state_cols.difference(common_cols)
+
+    print(f'{common_cols=}')
+    print(f'{district_cols=}')
+    print(f'{state_cols=}')
+
+    for name, df in hrelect.dfs.items():
+        if 'Democrat\nVote' in df.columns:
+            print(name)
