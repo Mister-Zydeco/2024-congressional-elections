@@ -1,6 +1,8 @@
 
-from HRElectViz.HrElection import HrElection
-import itables
+from HRElectViz.HrElection import HrElection,std_polars_config
+from great_tables import GT, html
+import pickle
+
 
 if __name__ == '__main__':
     dfnames = [
@@ -19,7 +21,10 @@ if __name__ == '__main__':
     ) + '\nEnter number next to desired dataframe above: '
     df_no = int(input(prompt))
     method = getattr(hr_elect, f'get_{dfnames[df_no]}')
-    df = method()
-    html = itables.to_html_datatable(df)
-    with open(f'../../out/{dfnames[df_no]}.html', 'w') as fh:
-        fh.write(html)
+    df = method().rename(lambda col: col.replace('\n', '<br>'))
+    table = GT(df).tab_header(
+        title=dfnames[df_no]
+    ).cols_label({col: html(col) for col in df.columns})
+    table.write_raw_html('df.html')
+    with open('states.pickle', 'wb') as fh:
+        pickle.dump(hr_elect.dfs['states'], fh)

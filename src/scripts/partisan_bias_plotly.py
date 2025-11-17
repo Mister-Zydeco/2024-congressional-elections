@@ -15,7 +15,7 @@ gd = DistrictsGeoData('../../map-data-census/tl_2024_us_state.shp',
 gd.filter_by_state(ush.lower48_abbrs)
 
 # Transform to quasi-mercator so that geometry ccan be simplified;
-# simplify with a tolerance of 1 km; the transform abck to lon-at
+# simplify with a tolerance of 1 km; the transform abck to lon-lat
 gd.xform_geometry('epsg:3857')
 gd.simplify(1000.0)
 gd.xform_geometry('epsg:4269')
@@ -36,7 +36,7 @@ print(f'{dem_bias_mid=}')
 dem_bias_df = dem_bias_df.with_columns(
     ((pl.col(dem_bias_col) - dem_bias_min) / (dem_bias_max - dem_bias_min))  # type: ignore
     .alias('color_col'),
-    pl.col('State\nCode').replace(ush.abbr_to_name).alias('state_name'),
+    pl.col('State\nAbbr').replace(ush.abbr_to_name).alias('state_name'),
 )
 
 redblue_colorscale = [(0.0, 'red'), (0.5, 'white'), (1.0, 'blue')]
@@ -45,7 +45,7 @@ redblue_colorscale = [(0.0, 'red'), (0.5, 'white'), (1.0, 'blue')]
 ##fig = px.choropleth(
 ##    dem_bias_df,
 ##    geojson=gd.geojson_data,
-##    locations='state_fips',
+##    locations='State\nFIPS',
 ##    hover_name='state_name',
 ##    hover_data='tt_text',
 ##    featureidkey='properties.GEOID',
@@ -54,16 +54,16 @@ redblue_colorscale = [(0.0, 'red'), (0.5, 'white'), (1.0, 'blue')]
 ##    projection='mercator',
 ##)
 other_col_names = [
-    'Democrat\nVote %', 'Democrat\ndelegate\ncount',
-    'Democrat\ndelegate %', 'Republican\nVote %',
+    'State Vote %\nDemocrat', 'Democrat\ndelegate\ncount',
+    'Democrat\ndelegate %', 'State Vote %\nRepublican',
     'Republican\ndelegate\ncount','Republican\ndelegate %',
-    'Partisan\nbias towards\nDemocrats', 'State\nCode'
+    'Partisan\nbias towards\nDemocrats', 'State\nAbbr'
 ]
 other_col_stack = dem_bias_df.select(other_col_names).to_numpy().tolist()
 fig = go.Figure(go.Choropleth(
     geojson=gd.geojson_data,
     featureidkey='properties.GEOID',
-    locations=dem_bias_df['state_fips'],
+    locations=dem_bias_df['State\nFIPS'],
     z=dem_bias_df['color_col'],
     colorscale=redblue_colorscale,
     colorbar=dict(x=-0.15, y=0.6, len=0.4),

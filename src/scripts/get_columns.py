@@ -18,6 +18,8 @@ if __name__ == '__main__':
     for dfname in dfnames:
         method = getattr(hrelect, f'get_{dfname}')
         df = method()
+        if dfname == 'district_winners':
+            print(dfname, df.columns)
         to_update = district_cols if 'district' in dfname else state_cols
         to_update.update(df.columns)
     common_cols = district_cols.intersection(state_cols)

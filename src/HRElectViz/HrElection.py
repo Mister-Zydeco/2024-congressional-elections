@@ -1,5 +1,4 @@
 import polars as pl
-
 import HRElectViz.ushelper as ush
 
 # The District field from the scrape of Hose Clerk data is a two-digit
@@ -8,7 +7,7 @@ import HRElectViz.ushelper as ush
 # 'DELEGATE' for all non-voting territories except Puerto Rico, for
 # which the string 'RESIDENT COMMISSIONER' is used.
 
-SD_COLS = ['State\nCode', 'District\nNumber']
+SD_COLS = ['State\nAbbr', 'District\nNumber']
 
 # The Republican entry in the dictionary below is a hack to accommodate
 # a comma-naive preprocessing that transformed "Republican, Libertarian"
@@ -34,7 +33,7 @@ major_party_selector: pl.Expr = (
         .otherwise(pl.col('Party'))
     )
 )
-lower48_selector: pl.Expr = pl.col('State\nCode').is_in(ush.lower48_abbrs)
+lower48_selector: pl.Expr = pl.col('State\nAbbr').is_in(ush.lower48_abbrs)
 
 
 def std_polars_config() -> pl.Config:
@@ -49,21 +48,21 @@ def std_polars_config() -> pl.Config:
 
 
 class HrElection:
-    def __init__(self):
-        is_at_large_x = pl.col('State\nCode').is_in(ush.at_large_states_abbrs)
-        is_territory_x = pl.col('State\nCode').is_in(ush.territory_abbrs)
+    def __init__(self, year=2024):
+        is_at_large_x = pl.col('State\nAbbr').is_in(ush.at_large_states_abbrs)
+        is_territory_x = pl.col('State\nAbbr').is_in(ush.territory_abbrs)
 
-        house_clerk_csv_path = '../../election-data/elections2024.csv'
+        house_clerk_csv_path = f'../../election-data/elections{year}.csv'
         self.dfs = {}
         df = (
             pl.read_csv(house_clerk_csv_path)
             .with_columns(
                 pl.col('StateTerritory')
                 .replace(ush.ucname_to_abbr)
-                .alias('State\nCode'),
+                .alias('State\nAbbr'),
                 pl.col('StateTerritory')
                 .replace(ush.ucname_to_fips)
-                .alias('state_fips'),
+                .alias('State\nFIPS'),
             )
             .with_columns(
                 pl.when(is_at_large_x | is_territory_x)
@@ -77,7 +76,7 @@ class HrElection:
                     .then(pl.lit('98'))
                     .otherwise(pl.col('District').str.zfill(2))
                 )
-                .alias('district_fips'),
+                .alias('District\nFIPS'),
             )
         )
         df = df.with_columns(
@@ -85,13 +84,13 @@ class HrElection:
         )
         self.dfs['states_and_territories'] = df
         self.dfs['states'] = df.filter(
-            pl.col('State\nCode').is_in(ush.state_abbrs)
+            pl.col('State\nAbbr').is_in(ush.state_abbrs)
         )
 
     def get_ndistricts_per_state(self) -> pl.DataFrame:
         df: pl.DataFrame = (
             self.dfs['states'].select(SD_COLS).unique()
-            .group_by('State\nCode')
+            .group_by('State\nAbbr')
             .agg(pl.len().alias('Number of\nDistricts'))
         )
         self.dfs['districts_per_state'] = df
@@ -103,7 +102,7 @@ class HrElection:
             .sort(SD_COLS + ['Vote'], descending=[False, False, True])
             .select(
                 SD_COLS
-                + ['state_fips', 'district_fips', 'Party', 'Name', 'Vote']
+                + ['State\nFIPS', 'District\nFIPS', 'Party', 'Name', 'Vote']
             )
         )
         self.dfs['districts_ranked_by_vote'] = df
@@ -116,10 +115,8 @@ class HrElection:
             self.dfs['districts_ranked_by_vote']
             .group_by(SD_COLS, maintain_order=True)
             .first()
-            .select(SD_COLS + ['state_fips', 'district_fips', 'Party', 'Name'])
+            .select(SD_COLS + ['State\nFIPS', 'District\nFIPS', 'Party', 'Name'])
         )
-        print('district_winners columns', df.columns)
-        print(df)
         self.dfs['district_winners'] = df
         return df
 
@@ -128,17 +125,18 @@ class HrElection:
             self.get_districts_ranked_by_vote()
         df: pl.DataFrame = (
             self.dfs['districts_ranked_by_vote']
-            .select(['State\nCode', 'District\nNumber', 'Party', 'Vote'])
+            .select(['State\nAbbr', 'District\nNumber', 'Party', 'Vote'])
             .with_columns(major_party_selector.alias('Party'))
             .group_by(
-                ['State\nCode', 'District\nNumber', 'Party'],
+                ['State\nAbbr', 'District\nNumber', 'Party'],
                 maintain_order=True,
             )
             .sum()
             .filter(pl.col('Party').is_in(['Republican', 'Democrat']))
             .pivot('Party', index=SD_COLS)
             .fill_null(0)
-        )
+        ).rename({x: f'Total vote for\n{x} candidates'
+                 for x in ['Democrat', 'Republican']})
         self.dfs['district_major_party_vote'] = df
         return df
 
@@ -157,13 +155,13 @@ class HrElection:
             self.get_district_winners_with_major_party()
         df: pl.DataFrame = (
             self.dfs['district_winners_with_major_party']
-            .group_by(['State\nCode', 'Party'], maintain_order=True)
+            .group_by(['State\nAbbr', 'Party'], maintain_order=True)
             .len()
-            .pivot('Party', index=['State\nCode'], values='len')
+            .pivot('Party', index=['State\nAbbr'], values='len')
             .fill_null(0)
         )
         df = df.with_columns(
-            pl.col('State\nCode').replace(ush.abbr_to_fips).alias('state_fips'),
+            pl.col('State\nAbbr').replace(ush.abbr_to_fips).alias('State\nFIPS'),
             ((pl.col('Republican') * 100) / x_total_delegates)
             .round(1)
             .alias('Republican\ndelegate %'),
@@ -171,8 +169,8 @@ class HrElection:
             .round(1)
             .alias('Democrat\ndelegate %'),
         ).select(
-            pl.col('State\nCode'),
-            pl.col('state_fips'),
+            pl.col('State\nAbbr'),
+            pl.col('State\nFIPS'),
             pl.col('Republican').alias('Republican\ndelegate\ncount'),
             pl.col('Democrat').alias('Democrat\ndelegate\ncount'),
             pl.col('Republican\ndelegate %'),
@@ -185,36 +183,27 @@ class HrElection:
     def get_aggregate_vote_by_state(self) -> pl.DataFrame:
         df: pl.DataFrame = (
             self.dfs['states']
-            .group_by('State\nCode', maintain_order=True)
+            .group_by('State\nAbbr', maintain_order=True)
             .agg(
                 [
                     pl.col('Vote')
                     .filter(x_is_affiliate_of('Democrat'))
                     .sum()
-                    .alias('Democrat\nVote'),
+                    .alias('State Vote\nDemocrat'),
                     pl.col('Vote')
                     .filter(x_is_affiliate_of('Republican'))
                     .sum()
-                    .alias('Republican\nVote'),
-                    pl.col('Vote').sum().alias('Vote\nAll\nParties'),
+                    .alias('State Vote\nRepublican'),
+                    pl.col('Vote').sum().alias('State Vote\nAll Parties'),
                 ]
             )
             .with_columns(
-                (pl.col('Democrat\nVote') + pl.col('Republican\nVote'))
-                .sum()
-                .alias('Major\nParty\nVote'),
-                (
-                    (pl.col('Democrat\nVote') / pl.col('Vote\nAll\nParties'))
-                    * 100
-                )
-                .round(1)
-                .alias('Democrat\nVote %'),
-                (
-                    (pl.col('Republican\nVote') / pl.col('Vote\nAll\nParties'))
-                    * 100
-                )
-                .round(1)
-                .alias('Republican\nVote %'),
+                pl.col('State Vote\nDemocrat') + pl.col('State Vote\nRepublican')
+                    .sum().alias('State Vote\nMajor Parties'),
+                (pl.col('State Vote\nDemocrat') / pl.col('State Vote\nAll Parties') * 100)
+                .round(1).alias('State Vote %\nDemocrat'),
+                (pl.col('State Vote\nRepublican') / pl.col('State Vote\nAll Parties') * 100)
+                .round(1).alias('State Vote %\nRepublican'),
             )
         )
         self.dfs['aggregate_vote_by_state'] = df
@@ -229,37 +218,25 @@ class HrElection:
                     pl.col('Vote')
                     .filter(x_is_affiliate_of('Democrat'))
                     .sum()
-                    .alias('Democrat\nVote'),
+                    .alias('District Vote\nDemocrat'),
                     pl.col('Vote')
                     .filter(x_is_affiliate_of('Republican'))
                     .sum()
-                    .alias('Republican\nVote'),
+                    .alias('District Vote\nRepublican'),
                 ]
             )
             .with_columns(
-                (pl.col('Democrat\nVote') + pl.col('Republican\nVote')).alias(
-                    'Vote\nBoth\nParties'
+                (pl.col('District Vote\nDemocrat') + pl.col('District Vote\nRepublican')).alias(
+                    'District Vote\nBoth Parties'
                 )
             )
             .with_columns(
-                (
-                    (
-                        pl.col('Democrat\nVote')
-                        / pl.col('Vote\nBoth\nParties')
-                        * 100
-                    )
-                    .round(1)
-                    .alias('Democrat\nVote %')
-                ),
-                (
-                    (
-                        pl.col('Republican\nVote')
-                        / pl.col('Vote\nBoth\nParties')
-                        * 100
-                    )
-                    .round(1)
-                    .alias('Republican\nVote %')
-                ),
+                ((pl.col('District Vote\nDemocrat')
+                    / pl.col('District Vote\nBoth Parties'))
+                  * 100).round(1).alias('District Vote %\nDemocrat'),
+                ((pl.col('District Vote\nRepublican')
+                  / pl.col('District Vote\nBoth Parties'))
+                  * 100).round(1).alias('District Vote %\nRepublican')
             )
         )
         self.dfs['aggregate_vote_by_district'] = df
