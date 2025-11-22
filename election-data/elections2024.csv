@@ -1,0 +1,1379 @@
+StateTerritory,District,Name,Party,Vote
+ALABAMA,1,Barry Moore,Republican,258619
+ALABAMA,1,Tom Holmes,Democrat,70929
+ALABAMA,1,None,None,306
+ALABAMA,2,Caroleene Dobson,Republican,131414
+ALABAMA,2,Shomari Figures,Democrat,158041
+ALABAMA,2,None,None,219
+ALABAMA,3,Mike Rogers,Republican,243848
+ALABAMA,3,None,None,5160
+ALABAMA,4,Robert B. Aderholt,Republican,274498
+ALABAMA,4,None,None,3374
+ALABAMA,5,Dale W. Strong,Republican,250322
+ALABAMA,5,None,None,12088
+ALABAMA,6,Gary J. Palmer,Republican,243741
+ALABAMA,6,Elizabeth Anderson,Democrat,102504
+ALABAMA,6,None,None,380
+ALABAMA,7,Robin Litaker,Republican,106312
+ALABAMA,7,Terri A. Sewell,Democrat,186723
+ALABAMA,7,None,None,185
+ALASKA,AT LARGE,Nick Begich,Republican,159550
+ALASKA,AT LARGE,Mary Sattler Peltola,Democrat,152828
+ALASKA,AT LARGE,Eric Hafner,Democrat,3417
+ALASKA,AT LARGE,John Wayne Howe,Independence,13010
+ALASKA,AT LARGE,None,None,750
+ARIZONA,1,David Schweikert,Republican,225538
+ARIZONA,1,Amish Shah,Democrat,208966
+ARIZONA,2,Elijah Crane,Republican,221413
+ARIZONA,2,Jonathan Nez,Democrat,184963
+ARIZONA,2,Richard William Ester,Write-in (Independent),28
+ARIZONA,2,David Alexander,Write-in (Democratic),22
+ARIZONA,2,Charles “Charlie” Everette Holt Jr.,Write-in (None),5
+ARIZONA,3,Jeff Zink,Republican,53705
+ARIZONA,3,Yassamin Ansari,Democrat,143336
+ARIZONA,3,Alan Aversa,Green,5008
+ARIZONA,3,Candace Cunningham,Write-in (Green),16
+ARIZONA,4,Kelly Cooper,Republican,152052
+ARIZONA,4,Greg Stanton,Democrat,176428
+ARIZONA,4,Vincent Beck-Jones,Green,6065
+ARIZONA,5,Andy Biggs,Republican,255628
+ARIZONA,5,Katrina Schaffner,Democrat,167680
+ARIZONA,6,Juan Ciscomani,Republican,215596
+ARIZONA,6,Kirsten Engel,Democrat,204774
+ARIZONA,6,Athena Eastwood,Green,10759
+ARIZONA,6,Luis Pozzolo,Write-in (Independent),91
+ARIZONA,7,Daniel Francis Butierez Sr.,Republican,99057
+ARIZONA,7,Raúl M. Grijalva,Democrat,171954
+ARIZONA,8,Abraham “Abe” Hamadeh,Republican,208269
+ARIZONA,8,Gregory Whitten,Democrat,160344
+ARIZONA,9,Paul A. Gosar,Republican,249583
+ARIZONA,9,Quacy Smith,Democrat,132640
+ARKANSAS,1,Eric A. “Rick” Crawford,Republican,194711
+ARKANSAS,1,Rodney Govens,Democrat,64113
+ARKANSAS,1,Steve G. Parsons,Libertarian,8353
+ARKANSAS,2,J. French Hill,Republican,180509
+ARKANSAS,2,Marcus A. Jones,Democrat,125777
+ARKANSAS,3,Steve Womack,Republican,192101
+ARKANSAS,3,Caitlin Draper,Democrat,95652
+ARKANSAS,3,Bobby Wilson,Libertarian,13331
+ARKANSAS,4,Bruce Westerman,Republican,197046
+ARKANSAS,4,Risie Howard,Democrat,73207
+CALIFORNIA,1,Doug LaMalfa,Republican,208592
+CALIFORNIA,1,Rose Penelope Yee,Democrat,110636
+CALIFORNIA,2,Chris Coulombe,Republican,106734
+CALIFORNIA,2,Jared Huffman,Democrat,272883
+CALIFORNIA,3,Kevin Kiley,Republican,234246
+CALIFORNIA,3,Jessica Morse,Democrat,188067
+CALIFORNIA,4,John Munn,Republican,114950
+CALIFORNIA,4,Mike Thompson,Democrat,227730
+CALIFORNIA,5,Tom McClintock,Republican,227643
+CALIFORNIA,5,Michael J. “Mike” Barkley,Democrat,140919
+CALIFORNIA,6,Christine Bish,Republican,121664
+CALIFORNIA,6,Ami Bera,Democrat,165408
+CALIFORNIA,7,Tom Silva,Republican,98341
+CALIFORNIA,7,Doris O. Matsui,Democrat,197429
+CALIFORNIA,8,Rudy Recile,Republican,71068
+CALIFORNIA,8,John Garamendi,Democrat,201962
+CALIFORNIA,9,Kevin Lincoln,Republican,121174
+CALIFORNIA,9,Josh Harder,Democrat,130183
+CALIFORNIA,10,Katherine Piccinini,Republican,122219
+CALIFORNIA,10,Mark DeSaulnier,Democrat,242325
+CALIFORNIA,11,Bruce Lou,Republican,64315
+CALIFORNIA,11,Nancy Pelosi,Democrat,274796
+CALIFORNIA,12,Lateefah Simon,Democrat,185176
+CALIFORNIA,12,Jennifer Tran,Democrat,97849
+CALIFORNIA,13,John S. Duarte,Republican,105367
+CALIFORNIA,13,Adam Gray,Democrat,105554
+CALIFORNIA,14,Vin Kruttiventi,Republican,89125
+CALIFORNIA,14,Eric Swalwell,Democrat,187263
+CALIFORNIA,15,Anna Cheng Kramer,Republican,77896
+CALIFORNIA,15,Kevin Mullin,Democrat,211648
+CALIFORNIA,16,Sam Liccardo,Democrat,179583
+CALIFORNIA,16,Evan Low,Democrat,128893
+CALIFORNIA,17,Anita Chen,Republican,82415
+CALIFORNIA,17,Ro Khanna,Democrat,172462
+CALIFORNIA,18,Peter D. Hernandez,Republican,80832
+CALIFORNIA,18,Zoe Lofgren,Democrat,147674
+CALIFORNIA,19,Jason Michael Anderson,Republican,111862
+CALIFORNIA,19,Jimmy Panetta,Democrat,252458
+CALIFORNIA,20,Vince Fong,Republican,187862
+CALIFORNIA,20,Mike Boudreaux,Republican,100926
+CALIFORNIA,21,Michael Maher,Republican,92733
+CALIFORNIA,21,Jim Costa,Democrat,102798
+CALIFORNIA,22,David G. Valadao,Republican,89484
+CALIFORNIA,22,Rudy Salas,Democrat,78023
+CALIFORNIA,23,Jay Obernolte,Republican,159286
+CALIFORNIA,23,Derek Marshall,Democrat,105563
+CALIFORNIA,24,Thomas Cole,Republican,127755
+CALIFORNIA,24,Salud O. Carbajal,Democrat,214724
+CALIFORNIA,25,Ian M. Weeks,Republican,107194
+CALIFORNIA,25,Raul Ruiz,Democrat,137837
+CALIFORNIA,26,Michael Koslow,Republican,146913
+CALIFORNIA,26,Julia Brownley,Democrat,187393
+CALIFORNIA,27,Mike Garcia,Republican,146050
+CALIFORNIA,27,George Whitesides,Democrat,154040
+CALIFORNIA,28,April A. Verlato,Republican,110455
+CALIFORNIA,28,Judy Chu,Democrat,204489
+CALIFORNIA,29,Benito Benny Bernal,Republican,63374
+CALIFORNIA,29,Luz Maria Rivas,Democrat,146312
+CALIFORNIA,30,Alex Balekian,Republican,98559
+CALIFORNIA,30,Laura Friedman,Democrat,213100
+CALIFORNIA,31,Daniel Jose Bocic Martinez,Republican,99856
+CALIFORNIA,31,Gil Cisneros,Democrat,148095
+CALIFORNIA,32,Larry Thompson,Republican,108711
+CALIFORNIA,32,Brad Sherman,Democrat,212934
+CALIFORNIA,33,Tom Herman,Republican,96078
+CALIFORNIA,33,Pete Aguilar,Democrat,137197
+CALIFORNIA,34,Jimmy Gomez,Democrat,105394
+CALIFORNIA,34,David Kim,Democrat,84020
+CALIFORNIA,35,Mike Cargile,Republican,97142
+CALIFORNIA,35,Norma J. Torres,Democrat,136413
+CALIFORNIA,36,Melissa Toomim,Republican,111985
+CALIFORNIA,36,Ted Lieu,Democrat,246002
+CALIFORNIA,37,Sydney Kamlager-Dove,Democrat,160364
+CALIFORNIA,37,Juan Rey,No Party Preference,44450
+CALIFORNIA,38,Eric J. Ching,Republican,110818
+CALIFORNIA,38,Linda T. Sánchez,Democrat,165110
+CALIFORNIA,39,David Serpa,Republican,99469
+CALIFORNIA,39,Mark Takano,Democrat,130191
+CALIFORNIA,40,Young Kim,Republican,211998
+CALIFORNIA,40,Joe Kerr,Democrat,171637
+CALIFORNIA,41,Ken Calvert,Republican,183216
+CALIFORNIA,41,Will Rollins,Democrat,171229
+CALIFORNIA,42,John Briscoe,Republican,74410
+CALIFORNIA,42,Robert Garcia,Democrat,159153
+CALIFORNIA,43,Steve Williams,Republican,53152
+CALIFORNIA,43,Maxine Waters,Democrat,160080
+CALIFORNIA,44,Roger Groh,Republican,66087
+CALIFORNIA,44,Nanette Diaz Barragán,Democrat,164765
+CALIFORNIA,45,Michelle Steel,Republican,157611
+CALIFORNIA,45,Derek Tran,Democrat,158264
+CALIFORNIA,46,David Pan,Republican,77279
+CALIFORNIA,46,J. Luis Correa,Democrat,134013
+CALIFORNIA,47,Scott Baugh,Republican,171554
+CALIFORNIA,47,Dave Min,Democrat,181721
+CALIFORNIA,48,Darrell Issa,Republican,213625
+CALIFORNIA,48,Stephen Houlahan,Democrat,146665
+CALIFORNIA,49,Matt Gunderson,Republican,180950
+CALIFORNIA,49,Mike Levin,Democrat,197397
+CALIFORNIA,50,Peter J. Bono,Republican,128859
+CALIFORNIA,50,Scott H. Peters,Democrat,231836
+CALIFORNIA,51,Bill Wells,Republican,128749
+CALIFORNIA,51,Sara Jacobs,Democrat,198835
+CALIFORNIA,52,Justin Lee,Republican,87501
+CALIFORNIA,52,Juan Vargas,Democrat,172217
+COLORADO,1,Valdamar Archuleta,Republican,74598
+COLORADO,1,Diana DeGette,Democrat,264606
+COLORADO,1,Critter Milton,Unity Party,4084
+COLORADO,1,Daniel Lutz,Approval Voting Party,2351
+COLORADO,1,Charles H. “Chuck” Norris,Write-in (Democratic),88
+COLORADO,1,John R. Johnson,Write-in (Unaffiliated),8
+COLORADO,2,Marshall Dawson,Republican,120633
+COLORADO,2,Joe Neguse,Democrat,284994
+COLORADO,2,Gaylon Kent,Libertarian,5180
+COLORADO,2,Cynthia Munhos de Aquino Sirianni,Unity Party,3744
+COLORADO,2,Jan Kok,Approval Voting Party,2349
+COLORADO,2,Mike Watson,Write-in (Unaffiliated),8
+COLORADO,3,Jeff Hurd,Republican,201951
+COLORADO,3,Adam Frisch,Democrat,182147
+COLORADO,3,James Wiley,Libertarian,10734
+COLORADO,3,Adam Withrow,Unity Party,2721
+COLORADO,4,Lauren Boebert,Republican,240213
+COLORADO,4,Trisha Calvarese,Democrat,188249
+COLORADO,4,Hannah Goodman,Libertarian,11676
+COLORADO,4,Frank Atwood,Approval Voting Party,6233
+COLORADO,4,Paul Noel Fiorino,Unity Party,1436
+COLORADO,5,Jeff Crank,Republican,197924
+COLORADO,5,River Gassen,Democrat,147972
+COLORADO,5,Michael Keith Vance,Libertarian,6458
+COLORADO,5,Joseph Gaye,Unaffiliated,4094
+COLORADO,5,Christopher Mitchell,American Constitution,4006
+COLORADO,5,Christopher Sweat,Forward Party,1627
+COLORADO,5,Marcus Murphy,Write-in (Unaffiliated),4
+COLORADO,6,John E. Fabbricatore,Republican,132174
+COLORADO,6,Jason Crow,Democrat,202686
+COLORADO,6,John Kittleson,Libertarian,4832
+COLORADO,6,Travis Nicks,Approval Voting Party,4004
+COLORADO,6,Brad Nickle,Write-in (Unaffiliated),25
+COLORADO,7,Sergei Matveyuk,Republican,175273
+COLORADO,7,Brittany Pettersen,Democrat,235688
+COLORADO,7,Patrick Bohan,Libertarian,9697
+COLORADO,7,Ron Tupa,Unity Party,5271
+COLORADO,7,Patrick Flaherty,Write-in (Unaffiliated),37
+COLORADO,8,Gabe Evans,Republican,163320
+COLORADO,8,Yadira Caraveo,Democrat,160871
+COLORADO,8,Chris Baum,Approval Voting Party,5741
+COLORADO,8,Susan Patricia Hall,Unity Party,3677
+COLORADO,8,James K. Treibert,Write-in (Unaffiliated),7
+CONNECTICUT,1,Jim Griffin,Republican,115065
+CONNECTICUT,1,John B. Larson,Democrat,197788
+CONNECTICUT,1,None,None,10861
+CONNECTICUT,1,Mary L. Sanders,Green,6768
+CONNECTICUT,2,Mike France,Republican,157878
+CONNECTICUT,2,Joe Courtney,Democrat,218162
+CONNECTICUT,2,Jeffery Russell,Write-in,4
+CONNECTICUT,2,Kenneth Kusmierski Jr.,Write-in,3
+CONNECTICUT,3,Michael Massey,Republican,130095
+CONNECTICUT,3,None,None,5018
+CONNECTICUT,3,Rosa L. DeLauro,Democrat,193684
+CONNECTICUT,3,Shahd Omar,Write-in,124
+CONNECTICUT,3,Omar Scott Antar,Write-in,2
+CONNECTICUT,4,Michael Goldstein,Republican,122793
+CONNECTICUT,4,James A. Himes,Democrat,200791
+CONNECTICUT,4,Benjamin Wesley,Independent,5273
+CONNECTICUT,5,George Logan,Republican,157258
+CONNECTICUT,5,Jahana Hayes,Democrat,171337
+CONNECTICUT,5,None,None,8931
+CONNECTICUT,5,Ahmad A J Darwish,Write-in,76
+CONNECTICUT,5,Bertram Ferguson,Write-in,3
+DELAWARE,AT LARGE,John J. Whalen III,Republican,209606
+DELAWARE,AT LARGE,Sarah McBride,Democrat,287830
+FLORIDA,1,Matt Gaetz,Republican,274108
+FLORIDA,1,Gay Valimont,Democrat,140980
+FLORIDA,2,Neal P. Dunn,Republican,247957
+FLORIDA,2,Yen Bailey,Democrat,154323
+FLORIDA,3,Kat Cammack,Republican,241174
+FLORIDA,3,Tom Wells,Democrat,150283
+FLORIDA,4,Aaron Bean,Republican,222364
+FLORIDA,4,LaShonda “L. J.” Holloway,Democrat,165912
+FLORIDA,4,Todd Schaefer,Write-in,73
+FLORIDA,5,John H. Rutherford,Republican,267471
+FLORIDA,5,Jay McGovern,Democrat,156570
+FLORIDA,5,Gary L. Koniz,Write-in,23
+FLORIDA,6,Michael Waltz,Republican,284414
+FLORIDA,6,James David Stockton III,Democrat,143050
+FLORIDA,6,Richard Paul Dembinsky,Write-in,10
+FLORIDA,7,Cory Mills,Republican,233937
+FLORIDA,7,Jennifer Adams,Democrat,179917
+FLORIDA,8,Mike Haridopolos,Republican,280352
+FLORIDA,8,Sandy Kennedy,Democrat,170096
+FLORIDA,9,Thomas Chalifoux,Republican,138076
+FLORIDA,9,Darren Soto,Democrat,178785
+FLORIDA,9,Marcus Carter,No Party Affiliation,7412
+FLORIDA,10,Willie J. Montague,Republican,109460
+FLORIDA,10,Maxwell Frost,Democrat,181455
+FLORIDA,11,Daniel Webster,Republican,269277
+FLORIDA,11,Barbie Harden Hall,Democrat,176726
+FLORIDA,12,Gus M. Bilirakis,Republican,306487
+FLORIDA,12,Rock Aboujaoude Jr.,Democrat,124949
+FLORIDA,13,Anna Paulina Luna,Republican,225636
+FLORIDA,13,Whitney Fox,Democrat,185930
+FLORIDA,13,Tony D’Arrigo,Write-in,27
+FLORIDA,14,Robert “Rocky” Rochford,Republican,145643
+FLORIDA,14,Kathy Castor,Democrat,199423
+FLORIDA,14,Christopher Bradley,No Party Affiliation,2595
+FLORIDA,14,Nathaniel T. Snyder,Libertarian Party of Florida,2524
+FLORIDA,15,Laurel M. Lee,Republican,195334
+FLORIDA,15,Patricia “Pat” Kemp,Democrat,152361
+FLORIDA,16,Vern Buchanan,Republican,247516
+FLORIDA,16,Jan Schneider,Democrat,168625
+FLORIDA,17,W. Gregory Steube,Republican,291347
+FLORIDA,17,Manny Lopez,Democrat,164566
+FLORIDA,17,Ralph E. Hartman,Write-in,8
+FLORIDA,18,Scott Franklin,Republican,225170
+FLORIDA,18,Andrea Doria Kale,Democrat,119637
+FLORIDA,19,Byron Donalds,Republican,275708
+FLORIDA,19,Kari L. Lerner,Democrat,140038
+FLORIDA,20,Sheila Cherfilus-McCormick,Democrat,1
+FLORIDA,21,Brian J. Mast,Republican,277435
+FLORIDA,21,Thomas Witkop,Democrat,171312
+FLORIDA,21,Elizabeth Felton,Write-in,19
+FLORIDA,22,Dan Franzese,Republican,165248
+FLORIDA,22,Lois Frankel,Democrat,201608
+FLORIDA,23,Joseph “Joe” Kaufman,Republican,178006
+FLORIDA,23,Jared Moskowitz,Democrat,196311
+FLORIDA,24,Jesus Gabriel Navarro,Republican,90692
+FLORIDA,24,Frederica S. Wilson,Democrat,194874
+FLORIDA,24,Lavern Spicer,Write-in,22
+FLORIDA,25,Chris Eddy,Republican,156208
+FLORIDA,25,Debbie Wasserman Schultz,Democrat,186942
+FLORIDA,25,Eddie Goldfarb,Write-in,41
+FLORIDA,26,Mario Diaz-Balart,Republican,217199
+FLORIDA,26,Joey Atkins,Democrat,89072
+FLORIDA,27,Maria Elvira Salazar,Republican,199159
+FLORIDA,27,Lucia Baez-Geller,Democrat,130708
+FLORIDA,28,Carlos A. Gimenez,Republican,210057
+FLORIDA,28,Phil Ehr,Democrat,115280
+GEORGIA,1,Earl L. “Buddy” Carter,Republican,220576
+GEORGIA,1,Patti Hewitt,Democrat,135281
+GEORGIA,2,A. Wayne Johnson,Republican,136473
+GEORGIA,2,Sanford D. Bishop Jr.,Democrat,176028
+GEORGIA,3,Brian Jack,Republican,273036
+GEORGIA,3,Maura Keller,Democrat,138749
+GEORGIA,4,Eugene Yu,Republican,74071
+GEORGIA,4,Henry C. “Hank” Johnson Jr.,Democrat,229290
+GEORGIA,5,John “Bongo” Salvesen,Republican,49221
+GEORGIA,5,Nikema Williams,Democrat,294470
+GEORGIA,6,Jeff Criswell,Republican,93909
+GEORGIA,6,Lucy McBath,Democrat,277027
+GEORGIA,7,Richard McCormick,Republican,275907
+GEORGIA,7,Bob Christian,Democrat,149535
+GEORGIA,8,Austin Scott,Republican,231547
+GEORGIA,8,Darrius Butler,Democrat,104434
+GEORGIA,9,Andrew S. Clyde,Republican,271062
+GEORGIA,9,Tambrei Cash,Democrat,121754
+GEORGIA,10,Mike Collins,Republican,256442
+GEORGIA,10,Alexandra “Lexy” Doherty,Democrat,150274
+GEORGIA,11,Barry Loudermilk,Republican,269849
+GEORGIA,11,Katy “Kate” L. Stamper,Democrat,131064
+GEORGIA,12,Rick W. Allen,Republican,205849
+GEORGIA,12,Elizabeth “Liz” Johnson,Democrat,135417
+GEORGIA,13,Jonathan Chavez,Republican,100730
+GEORGIA,13,David Scott,Democrat,256902
+GEORGIA,14,Marjorie Taylor Greene,Republican,243446
+GEORGIA,14,Shawn Harris,Democrat,134759
+HAWAII,1,Patrick C. Largey,Republican,64373
+HAWAII,1,Ed Case,Democrat,164237
+HAWAII,1,None,None,22669
+HAWAII,1,None,None,153
+HAWAII,2,Steve Bond,Republican,75471
+HAWAII,2,Jill N. Tokuda,Democrat,166251
+HAWAII,2,Aaron Toman,Libertarian,4497
+HAWAII,2,Randall Kelly Meyer,Nonpartisan,3937
+HAWAII,2,None,None,20266
+HAWAII,2,None,None,382
+IDAHO,1,Russ Fulcher,Republican,331049
+IDAHO,1,Kaylee Peterson,Democrat,118656
+IDAHO,1,Matt Loesby,Libertarian,9594
+IDAHO,1,Brendan J. Gomez,Constitution,6933
+IDAHO,1,Margot Dupre,Write-in,7
+IDAHO,1,David D. Bot,Write-in,3
+IDAHO,1,None,None,22598
+IDAHO,1,None,None,246
+IDAHO,2,Michael K. Simpson,Republican,250119
+IDAHO,2,David Roth,Democrat,126229
+IDAHO,2,Todd Corsetti,Libertarian,21310
+IDAHO,2,Idaho Law - Carta Sierra,Constitution,9804
+IDAHO,2,None,None,20500
+IDAHO,2,None,None,552
+ILLINOIS,1,Marcus Lewis,Republican,108064
+ILLINOIS,1,Jonathan L. Jackson,Democrat,208398
+ILLINOIS,1,Hilary Myrick-Winston,Write-in,45
+ILLINOIS,2,Ashley Ramos,Republican,94004
+ILLINOIS,2,Robin L. Kelly,Democrat,195777
+ILLINOIS,2,Mike Vick,Write-in,33
+ILLINOIS,2,Hilary Myrick-Winston,Write-in,29
+ILLINOIS,3,John Booras,Republican,84987
+ILLINOIS,3,Delia C. Ramirez,Democrat,174825
+ILLINOIS,3,Angel Oakley,Write-in,96
+ILLINOIS,4,Lupe Castillo,Republican,56323
+ILLINOIS,4,Jesús G. “Chuy” García,Democrat,139343
+ILLINOIS,4,Ed Hershey,Working Class,10704
+ILLINOIS,4,Alicia Martinez,Write-in,26
+ILLINOIS,5,Tommy Hanson,Republican,112931
+ILLINOIS,5,Mike Quigley,Democrat,251025
+ILLINOIS,5,Frank Rowder,Write-in,9
+ILLINOIS,6,Niki Conforti,Republican,166116
+ILLINOIS,6,Sean Casten,Democrat,196647
+ILLINOIS,6,Peter J. Meyer Jr.,Write-in,86
+ILLINOIS,7,Chad Koppie,Republican,44598
+ILLINOIS,7,Danny K. Davis,Democrat,222408
+ILLINOIS,7,Lien Choi,Write-in,133
+ILLINOIS,7,Lowell Martin Seida,Write-in,13
+ILLINOIS,8,Mark Rice,Republican,130153
+ILLINOIS,8,Raja Krishnamoorthi,Democrat,172920
+ILLINOIS,9,Seth Alan Cohen,Republican,107106
+ILLINOIS,9,Janice D. Schakowsky,Democrat,231722
+ILLINOIS,10,Jim Carris,Republican,131025
+ILLINOIS,10,Bradley Scott Schneider,Democrat,196358
+ILLINOIS,10,Joseph Severino,Write-in,238
+ILLINOIS,11,Jerry Evans,Republican,159630
+ILLINOIS,11,Bill Foster,Democrat,199825
+ILLINOIS,11,Anna Schiefelbein,Write-in,229
+ILLINOIS,12,Mike Bost,Republican,272754
+ILLINOIS,12,Brian Roberts,Democrat,94875
+ILLINOIS,13,Joshua Loyd,Republican,137917
+ILLINOIS,13,Nikki Budzinski,Democrat,191339
+ILLINOIS,13,Chibuihe Asonye,Write-in,244
+ILLINOIS,14,James T. “Jim” Marter,Republican,149464
+ILLINOIS,14,Lauren Underwood,Democrat,183446
+ILLINOIS,14,Roy Jones,Write-in,16
+ILLINOIS,14,Constant Connor VlaKancic,Write-in,3
+ILLINOIS,15,Mary E. Miller,Republican,308825
+ILLINOIS,15,William Bonnett,Write-in,1409
+ILLINOIS,16,Darin LaHood,Republican,310925
+ILLINOIS,16,Scott Summers,Write-in,183
+ILLINOIS,17,Joe McGraw,Republican,142567
+ILLINOIS,17,Eric Sorensen,Democrat,170261
+INDIANA,1,Randy Niemeyer,Republican,145056
+INDIANA,1,Frank J. Mrvan,Democrat,172467
+INDIANA,1,Dakotah Miskus,Libertarian,5200
+INDIANA,2,Rudy Yakym III,Republican,184848
+INDIANA,2,Lori A. Camp,Democrat,101962
+INDIANA,2,William E. Henry,Libertarian,7795
+INDIANA,2,Michael John Hubbard,Write-in (Independent),13
+INDIANA,3,Marlin A. Stutzman,Republican,202653
+INDIANA,3,Kiley M. Adolph,Democrat,97871
+INDIANA,3,Jarrad Lancaster,Libertarian,11015
+INDIANA,4,James R. Baird,Republican,209794
+INDIANA,4,Derrick Holder,Democrat,100091
+INDIANA,4,Ashley Groff,Libertarian,13710
+INDIANA,5,Victoria Spartz,Republican,203293
+INDIANA,5,Deborah A. Pickett,Democrat,136554
+INDIANA,5,Robby Slaughter,Independent,9790
+INDIANA,5,Lauri Shillings,Libertarian,9567
+INDIANA,6,Jefferson Shreve,Republican,201357
+INDIANA,6,Cynthia “Cinde” Wirth,Democrat,99841
+INDIANA,6,James Michael Sceniak,Libertarian,13711
+INDIANA,7,John P. Schmitz,Republican,78792
+INDIANA,7,André Carson,Democrat,185987
+INDIANA,7,Rusty Johnson,Libertarian,7369
+INDIANA,8,Mark Messmer,Republican,219941
+INDIANA,8,Erik Hurt,Democrat,95311
+INDIANA,8,K. Richard Fitzlaff,Libertarian,8381
+INDIANA,9,Erin Houchin,Republican,222884
+INDIANA,9,Timothy “Tim” Peck,Democrat,113400
+INDIANA,9,Russell “Russ” Brooksbank,Libertarian,9454
+IOWA,1,Mariannette Miller-Meeks,Republican,206955
+IOWA,1,Christina Bohannan,Democrat,206156
+IOWA,1,None,None,967
+IOWA,2,Ashley Hinson,Republican,233340
+IOWA,2,Sarah Corkery,Democrat,169740
+IOWA,2,Jody Madlom Puffett,No Party,5381
+IOWA,2,None,None,341
+IOWA,3,Zachary Nunn,Republican,213746
+IOWA,3,Lanon Baccam,Democrat,197962
+IOWA,3,None,None,1197
+IOWA,4,Randy Feenstra,Republican,250522
+IOWA,4,Ryan Melton,Democrat,122175
+IOWA,4,None,None,1127
+KANSAS,1,Tracey Mann,Republican,210493
+KANSAS,1,Paul Buskirk,Democrat,93965
+KANSAS,2,Derek Schmidt,Republican,172847
+KANSAS,2,Nancy Boyda,Democrat,115685
+KANSAS,2,John Hauer,Libertarian,14229
+KANSAS,3,Prasanth Reddy,Republican,167570
+KANSAS,3,Sharice Davids,Democrat,209871
+KANSAS,3,Steve Roberts,Libertarian,15892
+KANSAS,4,Ron Estes,Republican,198465
+KANSAS,4,Esau Freeman,Democrat,106632
+KENTUCKY,1,James Comer,Republican,252729
+KENTUCKY,1,Erin Marshall,Democrat,85524
+KENTUCKY,2,Brett Guthrie,Republican,252826
+KENTUCKY,2,Hank Linderman,Democrat,93029
+KENTUCKY,3,Mike Craven,Republican,124713
+KENTUCKY,3,Morgan McGarvey,Democrat,203100
+KENTUCKY,3,Daniel Cobble,Write-in,27
+KENTUCKY,3,Jared Randall,Write-in,24
+KENTUCKY,4,Thomas Massie,Republican,278386
+KENTUCKY,4,Benjamin August Middendorf,Write-in,1131
+KENTUCKY,5,Harold Rogers,Republican,261407
+KENTUCKY,6,Andy Barr,Republican,222293
+KENTUCKY,6,Randy Cravens,Democrat,130345
+LOUISIANA,1,Steve Scalise,Republican,238842
+LOUISIANA,1,Randall Arrington,Republican,17856
+LOUISIANA,1,Ross Shales,Republican,8330
+LOUISIANA,1,Mel Manuel,Democrat,85911
+LOUISIANA,1,J. “Frankie” Hyers,No Party,6781
+LOUISIANA,2,Christy Lynch,Republican,41641
+LOUISIANA,2,Devin Lance Graham,Republican,39174
+LOUISIANA,2,Shondrell Perrilloux,Republican,7878
+LOUISIANA,2,Troy A. Carter,Democrat,184009
+LOUISIANA,2,Devin Davis,Democrat,32482
+LOUISIANA,3,Clay Higgins,Republican,226279
+LOUISIANA,3,“Xan” John,Republican,13246
+LOUISIANA,3,Priscilla Gonzalez,Democrat,59834
+LOUISIANA,3,Sadi Summerlin,Democrat,21323
+LOUISIANA,4,Mike Johnson,Republican,262821
+LOUISIANA,4,Joshua Morott,Republican,43427
+LOUISIANA,5,Julia Letlow,Republican,201037
+LOUISIANA,5,M. V. “Vinny” Mendoza,Republican,35833
+LOUISIANA,5,Michael Vallien Jr.,Democrat,82981
+LOUISIANA,6,Elbert Guillory,Republican,111737
+LOUISIANA,6,Cleo Fields,Democrat,150323
+LOUISIANA,6,Quentin Anthony Anderson,Democrat,23811
+LOUISIANA,6,Peter Williams,Democrat,6252
+LOUISIANA,6,Wilken Jones Jr.,Democrat,3910
+MAINE,1,Ronald C. Russell,Republican,154849
+MAINE,1,Chellie Pingree,Democrat,249798
+MAINE,1,Ethan Weld Alcorn,Unenrolled Independent,20883
+MAINE,1,None,None,14037
+MAINE,2,Austin Theriault,Republican,194445
+MAINE,2,Jared F. Golden,Democrat,197151
+MARYLAND,1,Andy Harris,Republican,246356
+MARYLAND,1,Blane H. Miller III,Democrat,154985
+MARYLAND,1,Joshua W. O’Brien,Libertarian,12664
+MARYLAND,1,None,None,675
+MARYLAND,2,Kim Klacik,Republican,152079
+MARYLAND,2,John “Johnny O” Olszewski Jr.,Democrat,223797
+MARYLAND,2,Jasen Joseph Wunder,Libertarian,8169
+MARYLAND,2,None,None,749
+MARYLAND,3,Robert J. Steinberger,Republican,151186
+MARYLAND,3,Sarah Elfreth,Democrat,236681
+MARYLAND,3,Miguel Barajas,Libertarian,10471
+MARYLAND,3,None,None,862
+MARYLAND,4,George McDermott,Republican,30454
+MARYLAND,4,Glenn Ivey,Democrat,239596
+MARYLAND,4,None,None,920
+MARYLAND,5,Michelle Talkington,Republican,133985
+MARYLAND,5,Steny H. Hoyer,Democrat,283619
+MARYLAND,5,None,None,999
+MARYLAND,6,Neil C. Parrott,Republican,175974
+MARYLAND,6,April McClain Delaney,Democrat,199788
+MARYLAND,6,None,None,862
+MARYLAND,7,Scott M. Collier,Republican,49799
+MARYLAND,7,Kweisi Mfume,Democrat,232849
+MARYLAND,7,Ronald M. Owens-Bey,Libertarian,6840
+MARYLAND,7,None,None,649
+MARYLAND,8,Cheryl Riley,Republican,77821
+MARYLAND,8,Jamie Raskin,Democrat,292101
+MARYLAND,8,Nancy Wallace,Green,9612
+MARYLAND,8,None,None,786
+MASSACHUSETTS,1,Richard E. Neal,Democrat,223325
+MASSACHUSETTS,1,Nadia Donya Milleron,Independent,133552
+MASSACHUSETTS,1,None,None,26947
+MASSACHUSETTS,1,None,None,1181
+MASSACHUSETTS,2,James P. McGovern,Democrat,251441
+MASSACHUSETTS,2,Cornelius Shea,Independent,114065
+MASSACHUSETTS,2,None,None,23009
+MASSACHUSETTS,2,None,None,822
+MASSACHUSETTS,3,Lori Trahan,Democrat,264698
+MASSACHUSETTS,3,None,None,91119
+MASSACHUSETTS,3,None,None,6861
+MASSACHUSETTS,4,Jake Auchincloss,Democrat,289347
+MASSACHUSETTS,4,Sana A. Fadel,Write-in,1099
+MASSACHUSETTS,4,None,None,113853
+MASSACHUSETTS,4,None,None,7279
+MASSACHUSETTS,5,Katherine M. Clark,Democrat,286689
+MASSACHUSETTS,5,None,None,87811
+MASSACHUSETTS,5,None,None,5201
+MASSACHUSETTS,6,Seth Moulton,Democrat,321186
+MASSACHUSETTS,6,None,None,110196
+MASSACHUSETTS,6,None,None,7191
+MASSACHUSETTS,7,Ayanna Pressley,Democrat,232094
+MASSACHUSETTS,7,None,None,44193
+MASSACHUSETTS,7,None,None,6907
+MASSACHUSETTS,8,Robert G. Burke,Republican,110638
+MASSACHUSETTS,8,Stephen F. Lynch,Democrat,265432
+MASSACHUSETTS,8,None,None,20937
+MASSACHUSETTS,8,None,None,760
+MASSACHUSETTS,9,Dan Sullivan,Republican,193822
+MASSACHUSETTS,9,William R. Keating,Democrat,251931
+MASSACHUSETTS,9,None,None,18702
+MASSACHUSETTS,9,None,None,642
+MICHIGAN,1,Jack Bergman,Republican,282264
+MICHIGAN,1,Callie Barr,Democrat,180937
+MICHIGAN,1,Liz Hakola,Working Class,8497
+MICHIGAN,1,Andrew Gale,Libertarian,5486
+MICHIGAN,2,John R. Moolenaar,Republican,279167
+MICHIGAN,2,Michael Lynch,Democrat,135824
+MICHIGAN,2,Ben DeJong,Libertarian,7037
+MICHIGAN,2,Scott Adams,U,6522
+MICHIGAN,3,Paul Hudson,Republican,183952
+MICHIGAN,3,Hillary J. Scholten,Democrat,225510
+MICHIGAN,3,Louis Palus,Working Class,5546
+MICHIGAN,3,Alex Avery,Libertarian,5281
+MICHIGAN,4,Bill Huizenga,Republican,234489
+MICHIGAN,4,Jessica Swartz,Democrat,184641
+MICHIGAN,4,Curtis Clark,U,6687
+MICHIGAN,5,Tim Walberg,Republican,269215
+MICHIGAN,5,Libbi Urban,Democrat,134282
+MICHIGAN,5,James Bronke,Green,6379
+MICHIGAN,6,Heather Smiley,Republican,158658
+MICHIGAN,6,Debbie Dingell,Democrat,281162
+MICHIGAN,6,Clyde K. Shabazz,Green,7963
+MICHIGAN,6,Bill Krebaum,Libertarian,5523
+MICHIGAN,7,Tom Barrett,Republican,226722
+MICHIGAN,7,Curtis Hertel,Democrat,209959
+MICHIGAN,7,L. Rachel Dailey,Libertarian,14231
+MICHIGAN,8,Paul Junge,Republican,189317
+MICHIGAN,8,Kristen McDonald Rivet,Democrat,217490
+MICHIGAN,8,Kathy Goodwin,Working Class,8492
+MICHIGAN,8,Steve Barcelo,Libertarian,4768
+MICHIGAN,8,James Allen Little,U,2681
+MICHIGAN,8,Jim Casha,Green,1602
+MICHIGAN,9,Lisa C. McClain,Republican,312593
+MICHIGAN,9,Clinton St. Mosley,Democrat,138138
+MICHIGAN,9,Jim Walkowicz,Working Class,12169
+MICHIGAN,9,Kevin Vayko,Libertarian,5338
+MICHIGAN,10,John James,Republican,217437
+MICHIGAN,10,Carl J. Marlinga,Democrat,191363
+MICHIGAN,10,Andrea L. Kirby,Working Class,11162
+MICHIGAN,10,Mike Saliba,Libertarian,5339
+MICHIGAN,11,Nick Somberg,Republican,177432
+MICHIGAN,11,Haley M. Stevens,Democrat,260780
+MICHIGAN,11,Douglas Campbell,Green,9713
+MICHIGAN,12,James D. Hooper,Republican,92490
+MICHIGAN,12,Rashida Tlaib,Democrat,253354
+MICHIGAN,12,Gary Walkowicz,Working Class,9401
+MICHIGAN,12,Brenda K. Sanders,Green,8254
+MICHIGAN,13,Martell D. Bivings,Republican,78917
+MICHIGAN,13,Shri Thanedar,Democrat,220788
+MICHIGAN,13,Simone R. Coleman,Working Class,13367
+MICHIGAN,13,Chris Clark,Libertarian,5726
+MICHIGAN,13,Chris Dardzinski,U,2825
+MICHIGAN,13,Shakira Lynette Hawkins,Write-in,25
+MICHIGAN,13,Danetta Lynese Simpson,Write-in,1
+MINNESOTA,1,Brad Finstad,Republican,220929
+MINNESOTA,1,Rachel Bohman,Democratic-Farmer-Labor,156375
+MINNESOTA,1,None,None,297
+MINNESOTA,2,Joe Teirab,Republican,175621
+MINNESOTA,2,Angie Craig,Democrat,231751
+MINNESOTA,2,Thomas William Bowman,Constitutional Conservative,9492
+MINNESOTA,2,None,None,455
+MINNESOTA,3,Tad Jude,Republican,170427
+MINNESOTA,3,Kelly Morrison,Democratic-Farmer-Labor,240209
+MINNESOTA,3,None,None,504
+MINNESOTA,4,May Lor Xiong,Republican,117618
+MINNESOTA,4,Betty McCollum,Democrat,242802
+MINNESOTA,4,None,None,623
+MINNESOTA,5,Dalia Al-Aqidi,Republican,86213
+MINNESOTA,5,Ilhan Omar,Democrat,261066
+MINNESOTA,5,None,None,3768
+MINNESOTA,6,Tom Emmer,Republican,260095
+MINNESOTA,6,Jeanne Hendricks,Democratic-Farmer-Labor,155836
+MINNESOTA,6,None,None,565
+MINNESOTA,7,Michelle Fischbach,Republican,275098
+MINNESOTA,7,A J “John” Peters,Democratic-Farmer-Labor,114979
+MINNESOTA,7,None,None,433
+MINNESOTA,8,Pete Stauber,Republican,244498
+MINNESOTA,8,Jen Schultz,Democratic-Farmer-Labor,176724
+MINNESOTA,8,None,None,384
+MISSISSIPPI,1,Trent Kelly,Republican,223589
+MISSISSIPPI,1,Dianne Dodson Black,Democrat,96697
+MISSISSIPPI,2,Ron Eller,Republican,108956
+MISSISSIPPI,2,Bennie G. Thompson,Democrat,177885
+MISSISSIPPI,3,Michael Guest,Republican,265159
+MISSISSIPPI,4,Mike Ezell,Republican,215095
+MISSISSIPPI,4,Craig Elliot Raybon,Democrat,75771
+MISSOURI,1,Andrew Jones,Republican,56453
+MISSOURI,1,Wesley Bell,Democrat,233312
+MISSOURI,1,Rochelle A. Riggins,Libertarian,10070
+MISSOURI,1,Don Fitz,Green,5151
+MISSOURI,1,Blake Ashby,Better Party,2279
+MISSOURI,2,Ann Wagner,Republican,233444
+MISSOURI,2,Ray Hartmann,Democrat,182056
+MISSOURI,2,Brandon Daugherty,Libertarian,8951
+MISSOURI,2,Shelby Davis,Green,3941
+MISSOURI,3,Bob Onder,Republican,240620
+MISSOURI,3,Bethany E. Mann,Democrat,138532
+MISSOURI,3,Jordan Rowden,Libertarian,9298
+MISSOURI,3,William Hastings,Green,4013
+MISSOURI,4,Mark Alford,Republican,259886
+MISSOURI,4,Jeanette Cass,Democrat,96568
+MISSOURI,4,Thomas Holbrook,Libertarian,9240
+MISSOURI,4,David Haave,Write-in,2
+MISSOURI,5,Sean E. Smith,Republican,120957
+MISSOURI,5,Emanuel Cleaver,Democrat,199900
+MISSOURI,5,William Truman “Bill” Wayne,Libertarian,6658
+MISSOURI,5,Michael Day,Green,4414
+MISSOURI,6,Sam Graves,Republican,265210
+MISSOURI,6,Pam May,Democrat,100999
+MISSOURI,6,Andy Maidment,Libertarian,5919
+MISSOURI,6,Mike Diel,Green,3058
+MISSOURI,7,Eric Burlison,Republican,263231
+MISSOURI,7,Missi Hesketh,Democrat,96655
+MISSOURI,7,Kevin Craig,Libertarian,7982
+MISSOURI,8,Jason Smith,Republican,271249
+MISSOURI,8,Randi McCallian,Democrat,77649
+MISSOURI,8,Jake Dawson,Libertarian,7166
+MONTANA,1,Ryan K. Zinke,Republican,168529
+MONTANA,1,Monica Tranel,Democrat,143783
+MONTANA,1,Dennis Hayes,Libertarian,9954
+MONTANA,2,Troy Downing,Republican,181832
+MONTANA,2,John B. Driscoll,Democrat,93713
+NEBRASKA,1,Mike Flood,Republican,187559
+NEBRASKA,1,Carol Blood,Democrat,124498
+NEBRASKA,2,Don Bacon,Republican,160198
+NEBRASKA,2,Tony Vargas,Democrat,154369
+NEBRASKA,3,Adrian Smith,Republican,243481
+NEBRASKA,3,Daniel Ebers,Democrat,59287
+NEVADA,1,Mark Robertson,Republican,143650
+NEVADA,1,Dina Titus,Democrat,167885
+NEVADA,1,Ron “Ron Q.” Quince,No Political Party,3321
+NEVADA,1,William Hoge,Independent American,2736
+NEVADA,1,David Havlicek,Libertarian,2711
+NEVADA,1,David Goossen,No Political Party,2596
+NEVADA,2,Mark E. Amodei,Republican,219919
+NEVADA,2,Greg Kidd,No Political Party,144064
+NEVADA,2,Lynn Chapman,Independent American,19784
+NEVADA,2,Javi “Trujillo” Tachiquin,Libertarian,15817
+NEVADA,3,Drew Johnson,Republican,181084
+NEVADA,3,Susie Lee,Democrat,191304
+NEVADA,4,John Lee,Republican,148061
+NEVADA,4,Steven Horsford,Democrat,174926
+NEVADA,4,Russell Best,Independent American,4919
+NEVADA,4,Tim “T J” Ferreira,Libertarian,4300
+NEW HAMPSHIRE,1,Russell Prescott,Republican,185936
+NEW HAMPSHIRE,1,Chris Pappas,Democrat,218577
+NEW HAMPSHIRE,1,None,None,11678
+NEW HAMPSHIRE,1,None,None,295
+NEW HAMPSHIRE,1,None,None,76
+NEW HAMPSHIRE,2,Lily Tang Williams,Republican,187810
+NEW HAMPSHIRE,2,Maggie Goodlander,Democrat,211641
+NEW HAMPSHIRE,2,None,None,14548
+NEW HAMPSHIRE,2,None,None,367
+NEW HAMPSHIRE,2,None,None,58
+NEW JERSEY,1,Theodore “Teddy” Liddell,Republican,144390
+NEW JERSEY,1,Donald Norcross,Democrat,208808
+NEW JERSEY,1,Robin Brownfield,Green,5771
+NEW JERSEY,1,Austin Johnson,No Slogan,2091
+NEW JERSEY,2,Jefferson Van Drew,Republican,215946
+NEW JERSEY,2,Joseph F. Salerno,Democrat,153117
+NEW JERSEY,2,Thomas Cannavo,Green,2557
+NEW JERSEY,3,Rajesh Mohan,Republican,169454
+NEW JERSEY,3,Herb Conaway,Democrat,202034
+NEW JERSEY,3,Steven Welzer,Green,3478
+NEW JERSEY,3,Chris Russomanno,Libertarian,1951
+NEW JERSEY,3,Douglas Anthony Wynn,Why Not Wynn,1332
+NEW JERSEY,3,Justin R. Barbera,Join The Revolution,1235
+NEW JERSEY,4,Christopher H. Smith,Republican,265652
+NEW JERSEY,4,Matthew Jenkins,Democrat,124803
+NEW JERSEY,4,John Morrison,Libertarian,1950
+NEW JERSEY,4,Barry Bendar,Green,1823
+NEW JERSEY,5,Mary Jo Guinchard,Republican,165287
+NEW JERSEY,5,Josh Gottheimer,Democrat,208359
+NEW JERSEY,5,Beau Forte,Green,3428
+NEW JERSEY,5,James Tosone,Libertarian,2440
+NEW JERSEY,5,Aamir Arif,Peace Freedom Liberty,2375
+NEW JERSEY,6,Scott Fegler,Republican,122519
+NEW JERSEY,6,Frank Pallone Jr.,Democrat,170275
+NEW JERSEY,6,Fahad Akhtar,Common Sense Independent,4871
+NEW JERSEY,6,Herb Tarbous,Green,4246
+NEW JERSEY,6,Matthew Amitrano,Libertarian,1770
+NEW JERSEY,7,Thomas H. Kean Jr.,Republican,223331
+NEW JERSEY,7,Sue Altman,Democrat,200025
+NEW JERSEY,7,Andrew Black,Green,4258
+NEW JERSEY,7,Lana Leguia,Libertarian,3784
+NEW JERSEY,8,Anthony Valdes,Republican,68152
+NEW JERSEY,8,Robert Menendez,Democrat,116434
+NEW JERSEY,8,Christian J. Robbins,Green,5465
+NEW JERSEY,8,Pablo R. Olivera,Labour,4295
+NEW JERSEY,8,Lea Sherman,Socialist Workers,2419
+NEW JERSEY,9,Billy Prempeh,Republican,117939
+NEW JERSEY,9,Nellie Pou,Democrat,130514
+NEW JERSEY,9,Benjamin Taylor,Green,5027
+NEW JERSEY,9,Bruno Pereira,Libertarian,3533
+NEW JERSEY,10,Carmen Bucco,Republican,54405
+NEW JERSEY,10,LaMonica McIver,Democrat,182020
+NEW JERSEY,10,Jon Carlos Serrano,Green,3198
+NEW JERSEY,10,Cynthia A. Johnson,C4C 2024,2132
+NEW JERSEY,10,Michelle Middleton,All Of Us!,1686
+NEW JERSEY,10,Donna Weiss,Social Activist,1136
+NEW JERSEY,11,Joseph Belnome,Republican,164556
+NEW JERSEY,11,Mikie Sherrill,Democrat,222583
+NEW JERSEY,11,Lily Benavides,Green,4780
+NEW JERSEY,11,Joshua Lanzara,Truth Freedom Prosperity,1832
+NEW JERSEY,12,Darius Mayfield,Republican,117222
+NEW JERSEY,12,Bonnie Watson Coleman,Democrat,196871
+NEW JERSEY,12,Kim Meudt,Green,4652
+NEW JERSEY,12,Vic Kaplan,Libertarian,2915
+NEW MEXICO,1,Steve Jones,Republican,149546
+NEW MEXICO,1,Melanie A. Stansbury,Democrat,193203
+NEW MEXICO,2,Yvette Herrell,Republican,127145
+NEW MEXICO,2,Gabe Vasquez,Democrat,138177
+NEW MEXICO,3,Sharon E. Clahchischilliage,Republican,126085
+NEW MEXICO,3,Teresa Leger Fernandez,Democrat,162342
+NEW YORK,1,Nick LaLota,Republican,200802
+NEW YORK,1,None,None,25483
+NEW YORK,1,John P. Avlon,Democrat,181647
+NEW YORK,1,None,None,1893
+NEW YORK,1,None,None,19984
+NEW YORK,1,None,None,376
+NEW YORK,1,None,None,275
+NEW YORK,2,Andrew R. Garbarino,Republican,180374
+NEW YORK,2,None,None,22223
+NEW YORK,2,Rob Lubin,Democrat,129937
+NEW YORK,2,None,None,6434
+NEW YORK,2,None,None,23708
+NEW YORK,2,None,None,251
+NEW YORK,2,None,None,189
+NEW YORK,3,Michael J. LiPetri Jr.,Republican,161196
+NEW YORK,3,None,None,13497
+NEW YORK,3,Thomas R. Suozzi,Democrat,185491
+NEW YORK,3,None,None,2160
+NEW YORK,3,None,None,18315
+NEW YORK,3,None,None,780
+NEW YORK,3,None,None,443
+NEW YORK,4,Anthony D’Esposito,Republican,169641
+NEW YORK,4,None,None,13516
+NEW YORK,4,Laura A. Gillen,Democrat,190569
+NEW YORK,4,None,None,1191
+NEW YORK,4,None,None,16465
+NEW YORK,4,None,None,601
+NEW YORK,4,None,None,347
+NEW YORK,5,Paul King,Republican,56689
+NEW YORK,5,Conservative,Common Sense,5840
+NEW YORK,5,Gregory W. Meeks,Democrat,168425
+NEW YORK,5,None,None,12060
+NEW YORK,5,None,None,782
+NEW YORK,6,Thomas J. Zmich,Republican,69654
+NEW YORK,6,None,None,4905
+NEW YORK,6,Grace Meng,Democrat,120205
+NEW YORK,6,Joseph J. Chou,Truth,3272
+NEW YORK,6,None,None,12467
+NEW YORK,6,None,None,654
+NEW YORK,7,Bill Kregler,Republican,43052
+NEW YORK,7,None,None,5383
+NEW YORK,7,Nydia M. Velázquez,Democrat,145141
+NEW YORK,7,None,None,27654
+NEW YORK,7,None,None,15556
+NEW YORK,7,None,None,549
+NEW YORK,8,John J. Delaney,Republican,48369
+NEW YORK,8,None,None,6494
+NEW YORK,8,Hakeem S. Jeffries,Democrat,168036
+NEW YORK,8,None,None,17346
+NEW YORK,8,None,None,905
+NEW YORK,9,Menachem M. Raitport,Republican,51458
+NEW YORK,9,None,None,8606
+NEW YORK,9,Yvette D. Clarke,Democrat,173207
+NEW YORK,9,None,None,17562
+NEW YORK,9,None,None,2501
+NEW YORK,10,Alexander Dodenhoff,Republican,37555
+NEW YORK,10,Daniel S. Goldman,Democrat,206206
+NEW YORK,10,Paul J. Briscoe,Conservative,6747
+NEW YORK,10,None,None,24718
+NEW YORK,10,None,None,4048
+NEW YORK,11,Nicole Malliotakis,Republican,153105
+NEW YORK,11,None,None,13994
+NEW YORK,11,Andrea S. Morse,Democrat,93586
+NEW YORK,11,None,None,12861
+NEW YORK,11,None,None,1043
+NEW YORK,12,Michael K. Zumbluskas,Republican,62989
+NEW YORK,12,Jerrold Nadler,Democrat,243111
+NEW YORK,12,None,None,17054
+NEW YORK,12,None,None,17949
+NEW YORK,12,None,None,866
+NEW YORK,13,Ruben D. Vargas,Republican,32071
+NEW YORK,13,None,None,3751
+NEW YORK,13,Adriano Espaillat,Democrat,181800
+NEW YORK,13,None,None,22917
+NEW YORK,13,None,None,1351
+NEW YORK,14,Tina Forte,Republican,54157
+NEW YORK,14,None,None,4921
+NEW YORK,14,Alexandria Ocasio-Cortez,Democrat,118477
+NEW YORK,14,None,None,14237
+NEW YORK,14,None,None,12366
+NEW YORK,14,None,None,759
+NEW YORK,15,Gonzalo Duran,Republican,32494
+NEW YORK,15,None,None,3516
+NEW YORK,15,Ritchie Torres,Democrat,130392
+NEW YORK,15,Jose Vega,LaRouche,4086
+NEW YORK,15,None,None,17450
+NEW YORK,15,None,None,607
+NEW YORK,16,Miriam Levitt Flisser,Republican,86408
+NEW YORK,16,George S. Latimer,Democrat,217668
+NEW YORK,16,None,None,26008
+NEW YORK,16,None,None,1003
+NEW YORK,17,Michael Lawler,Republican,180924
+NEW YORK,17,None,None,16921
+NEW YORK,17,Mondaire L. Jones,Democrat,173899
+NEW YORK,17,Anthony Frascone,Working Families,7530
+NEW YORK,17,None,None,13917
+NEW YORK,17,None,None,535
+NEW YORK,17,None,None,234
+NEW YORK,18,Alison Esposito,Republican,138409
+NEW YORK,18,None,None,16720
+NEW YORK,18,Patrick Ryan,Democrat,189345
+NEW YORK,18,None,None,17761
+NEW YORK,18,None,None,13490
+NEW YORK,18,None,None,289
+NEW YORK,18,None,None,274
+NEW YORK,19,Marcus J. Molinaro,Republican,164001
+NEW YORK,19,None,None,20289
+NEW YORK,19,Josh Riley,Democrat,170049
+NEW YORK,19,None,None,22598
+NEW YORK,19,None,None,11862
+NEW YORK,19,None,None,406
+NEW YORK,19,None,None,121
+NEW YORK,20,Kevin M. Waltz,Republican,121609
+NEW YORK,20,None,None,19542
+NEW YORK,20,Paul Tonko,Democrat,200354
+NEW YORK,20,None,None,21643
+NEW YORK,20,None,None,14140
+NEW YORK,20,None,None,297
+NEW YORK,20,None,None,163
+NEW YORK,21,Elise M. Stefanik,Republican,195464
+NEW YORK,21,None,None,20532
+NEW YORK,21,Paula Collins,Democrat,121289
+NEW YORK,21,None,None,11158
+NEW YORK,21,None,None,11688
+NEW YORK,21,None,None,197
+NEW YORK,21,None,None,130
+NEW YORK,22,Brandon Williams,Republican,142082
+NEW YORK,22,None,None,19857
+NEW YORK,22,John W. Mannion,Democrat,178394
+NEW YORK,22,None,None,16056
+NEW YORK,22,None,None,10310
+NEW YORK,22,None,None,403
+NEW YORK,22,None,None,161
+NEW YORK,23,Nicholas A. Langworthy,Republican,213928
+NEW YORK,23,None,None,33041
+NEW YORK,23,Thomas A. Carle,Democrat,128397
+NEW YORK,23,None,None,21881
+NEW YORK,23,None,None,228
+NEW YORK,23,None,None,146
+NEW YORK,24,Claudia Tenney,Republican,207078
+NEW YORK,24,None,None,28789
+NEW YORK,24,David Wagenhauser,Democrat,123317
+NEW YORK,24,None,None,19371
+NEW YORK,24,None,None,223
+NEW YORK,24,None,None,133
+NEW YORK,25,Gregg A. Sadwick,Republican,141195
+NEW YORK,25,Joseph D. Morelle,Democrat,200507
+NEW YORK,25,None,None,18668
+NEW YORK,25,None,None,18899
+NEW YORK,25,None,None,263
+NEW YORK,25,None,None,84
+NEW YORK,26,Anthony G. Marecki,Republican,95035
+NEW YORK,26,None,None,16737
+NEW YORK,26,Timothy M. Kennedy,Democrat,190668
+NEW YORK,26,None,None,18463
+NEW YORK,26,None,None,20903
+NEW YORK,26,None,None,401
+NEW YORK,26,None,None,197
+NORTH CAROLINA,1,Laurie Buckhout,Republican,180034
+NORTH CAROLINA,1,Donald G. Davis,Democrat,186341
+NORTH CAROLINA,1,Tom Bailey,Libertarian,9949
+NORTH CAROLINA,2,Alan D. Swain,Republican,128164
+NORTH CAROLINA,2,Deborah K. Ross,Democrat,268662
+NORTH CAROLINA,2,Michael Dublin,Green,8691
+NORTH CAROLINA,3,Gregory F. Murphy,Republican,248276
+NORTH CAROLINA,3,Gheorghe Cormos,Libertarian,72565
+NORTH CAROLINA,4,Eric Blankenburg,Republican,112084
+NORTH CAROLINA,4,Valerie P. Foushee,Democrat,308064
+NORTH CAROLINA,4,Guy Meilleur,Libertarian,8632
+NORTH CAROLINA,5,Virginia Foxx,Republican,238304
+NORTH CAROLINA,5,Chuck Hubbard,Democrat,162390
+NORTH CAROLINA,6,Addison McDowell,Republican,233303
+NORTH CAROLINA,6,Kevin E. Hayes,Constitution,104017
+NORTH CAROLINA,7,David Rouzer,Republican,254022
+NORTH CAROLINA,7,Marlando D. Pridgen,Democrat,179512
+NORTH CAROLINA,8,Mark Harris,Republican,238640
+NORTH CAROLINA,8,Justin E. Dues,Democrat,161709
+NORTH CAROLINA,9,Richard Hudson,Republican,210042
+NORTH CAROLINA,9,Nigel William Bristow,Democrat,140852
+NORTH CAROLINA,9,Shelane Etchison,Unaffiliated,22183
+NORTH CAROLINA,10,Pat Harrigan,Republican,233814
+NORTH CAROLINA,10,Ralph R. Scott Jr.,Democrat,155383
+NORTH CAROLINA,10,Steven Feldman,Libertarian,11614
+NORTH CAROLINA,10,Todd Helm,Constitution,5884
+NORTH CAROLINA,11,Chuck Edwards,Republican,245546
+NORTH CAROLINA,11,Caleb Rudow,Democrat,186977
+NORTH CAROLINA,12,Addul Ali,Republican,91128
+NORTH CAROLINA,12,Alma S. Adams,Democrat,259627
+NORTH CAROLINA,13,Brad Knott,Republican,243655
+NORTH CAROLINA,13,Frank Pierce,Democrat,171835
+NORTH CAROLINA,14,Tim Moore,Republican,232987
+NORTH CAROLINA,14,Pam Genant,Democrat,168269
+NORTH DAKOTA,AT LARGE,Julie Fedorchak,Republican,249101
+NORTH DAKOTA,AT LARGE,Trygve Hammer,Democratic-Nonpartisan League,109231
+NORTH DAKOTA,AT LARGE,None,None,1455
+OHIO,1,Orlando Sonza,Republican,177993
+OHIO,1,Greg Landsman,Democrat,213916
+OHIO,2,David J. Taylor,Republican,268211
+OHIO,2,Samantha Meadows,Democrat,96401
+OHIO,2,Alexander David Schrank,Write-in,4
+OHIO,3,Michael Young,Republican,100355
+OHIO,3,Joyce Beatty,Democrat,242632
+OHIO,4,Jim Jordan,Republican,273297
+OHIO,4,Tamie Wilson,Democrat,125905
+OHIO,5,Robert E. Latta,Republican,255633
+OHIO,5,Keith Mundy,Democrat,123024
+OHIO,6,Michael A. Rulli,Republican,245860
+OHIO,6,Michael L. Kripchak,Democrat,122515
+OHIO,7,Max L. Miller,Republican,204494
+OHIO,7,Matt Diemer,Democrat,144613
+OHIO,7,Dennis Kucinich,Independent,51264
+OHIO,8,Warren Davidson,Republican,237503
+OHIO,8,Vanessa Enoch,Democrat,140625
+OHIO,9,Derek Merrin,Republican,178716
+OHIO,9,Marcy Kaptur,Democrat,181098
+OHIO,9,Tom Pruss,Libertarian,15381
+OHIO,10,Michael R. Turner,Republican,213695
+OHIO,10,Amy Cox,Democrat,145420
+OHIO,10,Michael Harbaugh,Independent,11631
+OHIO,11,Alan Rapoport,Republican,59394
+OHIO,11,Shontel M. Brown,Democrat,236883
+OHIO,11,Sean Freeman,Independent,6107
+OHIO,11,Tracy Deforde,Write-in,27
+OHIO,11,Christopher Zelonish,Write-in,2
+OHIO,12,Troy Balderson,Republican,260450
+OHIO,12,Jerrad Christian,Democrat,119738
+OHIO,13,Kevin Coughlin,Republican,188924
+OHIO,13,Emilia Strong Sykes,Democrat,197466
+OHIO,14,David P. Joyce,Republican,243427
+OHIO,14,Brian Bob Kenderes,Democrat,140431
+OHIO,15,Mike Carey,Republican,196338
+OHIO,15,Adam Miller,Democrat,151411
+OKLAHOMA,1,Kevin Hern,Republican,188832
+OKLAHOMA,1,Dennis Baker,Democrat,107903
+OKLAHOMA,1,Mark David Garcia Sanders,Independent,15766
+OKLAHOMA,2,Josh Brecheen,Republican,238123
+OKLAHOMA,2,Brandon Wade,Democrat,68841
+OKLAHOMA,2,Ronnie Hopkins,Independent,14061
+OKLAHOMA,3,Frank D. Lucas,Republican,1
+OKLAHOMA,4,Tom Cole,Republican,199962
+OKLAHOMA,4,Mary Brannon,Democrat,86641
+OKLAHOMA,4,James Stacy,Independent,19870
+OKLAHOMA,5,Stephanie I. Bice,Republican,207636
+OKLAHOMA,5,Madison Horn,Democrat,134471
+OREGON,1,Bob Todd,Republican,98908
+OREGON,1,Suzanne Bonamici,Democrat,241556
+OREGON,1,Joe Christman,Libertarian,10840
+OREGON,1,None,None,687
+OREGON,2,Cliff Bentz,Republican,224601
+OREGON,2,Dan Ruby,Democrat,115337
+OREGON,2,Michael Kurt Stettler,Constitution,11255
+OREGON,2,None,None,296
+OREGON,3,Joanna Harbour,Republican,84344
+OREGON,3,Maxine E. Dexter,Democrat,226405
+OREGON,3,David W. Walker,Progressive  Independent,10245
+OREGON,3,Joe Meyer,Pacific Green,10106
+OREGON,3,David K. Frosch,Constitution,2459
+OREGON,3,None,None,810
+OREGON,4,Monique DeSpain,Republican,166430
+OREGON,4,Val T. Hoyle,Democrat,195862
+OREGON,4,Justin Filip,Pacific Green,10315
+OREGON,4,Dan Bahlen,Libertarian,5704
+OREGON,4,None,None,454
+OREGON,5,Lori Chavez-DeRemer,Republican,180420
+OREGON,5,Janelle S. Bynum,Democrat,191365
+OREGON,5,Brett Smith,Independent,18665
+OREGON,5,Sonja Feintech,Libertarian,6193
+OREGON,5,Andrea Thorn Townsend,Pacific Green,4155
+OREGON,5,None,None,495
+OREGON,6,Mike Erickson,Republican,157634
+OREGON,6,Andrea Salinas,Democrat,180869
+OREGON,6,None,None,562
+PENNSYLVANIA,1,Brian K. Fitzpatrick,Republican,261390
+PENNSYLVANIA,1,Ashley Ehasz,Democrat,202042
+PENNSYLVANIA,2,Aaron Bashir,Republican,77355
+PENNSYLVANIA,2,Brendan F. Boyle,Democrat,193691
+PENNSYLVANIA,3,Dwight Evans,Democrat,340223
+PENNSYLVANIA,4,David Winkler,Republican,186457
+PENNSYLVANIA,4,Madeleine Dean,Democrat,269066
+PENNSYLVANIA,5,Alfeia Goodwin,Republican,142355
+PENNSYLVANIA,5,Mary Gay Scanlon,Democrat,267754
+PENNSYLVANIA,6,Neil Young,Republican,183638
+PENNSYLVANIA,6,Chrissy Houlahan,Democrat,235625
+PENNSYLVANIA,7,Ryan E. Mackenzie,Republican,203688
+PENNSYLVANIA,7,Susan Wild,Democrat,199626
+PENNSYLVANIA,8,Rob Bresnahan Jr.,Republican,195663
+PENNSYLVANIA,8,Matt Cartwright,Democrat,189411
+PENNSYLVANIA,9,Daniel Meuser,Republican,276212
+PENNSYLVANIA,9,Amanda Waldman,Democrat,115523
+PENNSYLVANIA,10,Scott Perry,Republican,205567
+PENNSYLVANIA,10,Janelle Stelson,Democrat,200434
+PENNSYLVANIA,11,Lloyd Smucker,Republican,253672
+PENNSYLVANIA,11,Jim Atkinson,Democrat,149641
+PENNSYLVANIA,12,James Hayes,Republican,181426
+PENNSYLVANIA,12,Summer L. Lee,Democrat,234802
+PENNSYLVANIA,13,John Joyce,Republican,301460
+PENNSYLVANIA,13,Beth Farnham,Democrat,104823
+PENNSYLVANIA,14,Guy Reschenthaler,Republican,268380
+PENNSYLVANIA,14,Chris Dziados,Democrat,134755
+PENNSYLVANIA,15,Glenn Thompson,Republican,279027
+PENNSYLVANIA,15,Zach Womer,Democrat,111408
+PENNSYLVANIA,16,Mike Kelly,Republican,256923
+PENNSYLVANIA,16,Preston Nouri,Democrat,146709
+PENNSYLVANIA,17,Rob Mercuri,Republican,207900
+PENNSYLVANIA,17,Christopher R. Deluzio,Democrat,242838
+RHODE ISLAND,1,Allen Rodney Waters,Republican,70742
+RHODE ISLAND,1,Gabe Amo,Democrat,139352
+RHODE ISLAND,1,C. D. Reynolds,Independent,10463
+RHODE ISLAND,1,None,None,561
+RHODE ISLAND,2,Stephen Joseph Corvi,Republican,109381
+RHODE ISLAND,2,Seth Magaziner,Democrat,153439
+RHODE ISLAND,2,None,None,660
+SOUTH CAROLINA,1,Nancy Mace,Republican,227502
+SOUTH CAROLINA,1,Michael B. Moore,Democrat,162582
+SOUTH CAROLINA,1,None,None,693
+SOUTH CAROLINA,2,Joe Wilson,Republican,211514
+SOUTH CAROLINA,2,David Robinson II,Democrat,142985
+SOUTH CAROLINA,2,None,None,786
+SOUTH CAROLINA,3,Sheri Biggs,Republican,248451
+SOUTH CAROLINA,3,Bryon L. Best,Democrat,87735
+SOUTH CAROLINA,3,Mike Bedenbaugh,Alliance,9918
+SOUTH CAROLINA,3,None,None,609
+SOUTH CAROLINA,4,William R. Timmons IV,Republican,206916
+SOUTH CAROLINA,4,Kathryn Harvey,Democrat,128976
+SOUTH CAROLINA,4,Mark Hackett,Constitution,9779
+SOUTH CAROLINA,4,None,None,743
+SOUTH CAROLINA,5,Ralph Norman,Republican,228260
+SOUTH CAROLINA,5,Evangeline Hundley,Democrat,130592
+SOUTH CAROLINA,5,None,None,557
+SOUTH CAROLINA,6,Duke Buckner,Republican,112360
+SOUTH CAROLINA,6,James E. Clyburn,Democrat,182056
+SOUTH CAROLINA,6,Michael Simpson,Libertarian,5279
+SOUTH CAROLINA,6,Gregg Marcel Dixon,United Citizens,4927
+SOUTH CAROLINA,6,Joseph Oddo,Alliance,1056
+SOUTH CAROLINA,6,None,None,299
+SOUTH CAROLINA,7,Russell Fry,Republican,240326
+SOUTH CAROLINA,7,Mal Hyman,Democrat,129522
+SOUTH CAROLINA,7,None,None,481
+SOUTH DAKOTA,AT LARGE,Dusty Johnson,Republican,303630
+SOUTH DAKOTA,AT LARGE,Sheryl Johnson,Democrat,117818
+TENNESSEE,1,Diana Harshbarger,Republican,257825
+TENNESSEE,1,Kevin Jenkins,Democrat,64021
+TENNESSEE,1,Richard G. Baker,Independent,5714
+TENNESSEE,1,Levi Brake,Independent,2639
+TENNESSEE,2,Tim Burchett,Republican,250782
+TENNESSEE,2,Jane George,Democrat,111316
+TENNESSEE,3,Charles J. “Chuck” Fleischmann,Republican,236519
+TENNESSEE,3,Jack Allen,Democrat,102841
+TENNESSEE,3,Stephen “Scooter” King,Independent,5848
+TENNESSEE,3,Jean Howard-Hill,Independent,5120
+TENNESSEE,4,Scott DesJarlais,Republican,219133
+TENNESSEE,4,Victoria Isabel Broderick,Democrat,83832
+TENNESSEE,4,Keith Nolan,Independent,5601
+TENNESSEE,4,Earnest Ensley,Independent,4689
+TENNESSEE,5,Andrew Ogles,Republican,205075
+TENNESSEE,5,Maryam Abolfazli,Democrat,142387
+TENNESSEE,5,Jim Larkin,Independent,7607
+TENNESSEE,5,Bob Titley,Independent,3065
+TENNESSEE,5,Yomi “Fapas” Faparusi,Independent,2580
+TENNESSEE,6,John W. Rose,Republican,225543
+TENNESSEE,6,Lore Bergman,Democrat,106144
+TENNESSEE,7,Mark E. Green,Republican,191992
+TENNESSEE,7,Megan Barry,Democrat,122764
+TENNESSEE,7,Shaun Greene,Independent,7900
+TENNESSEE,8,David Kustoff,Republican,240411
+TENNESSEE,8,Sarah Freeman,Democrat,85043
+TENNESSEE,8,James Hart,Independent,6861
+TENNESSEE,9,Charlotte Bergmann,Republican,57411
+TENNESSEE,9,Steve Cohen,Democrat,159522
+TENNESSEE,9,Wendell Wells,Independent,3708
+TENNESSEE,9,Dennis Clark,Independent,3062
+TEXAS,1,Nathaniel Moran,Republican,258523
+TEXAS,2,Dan Crenshaw,Republican,214631
+TEXAS,2,Peter Filler,Democrat,112252
+TEXAS,3,Keith Self,Republican,237794
+TEXAS,3,Sandeep Srivastava,Democrat,142953
+TEXAS,4,Pat Fallon,Republican,241603
+TEXAS,4,Simon Cardell,Democrat,111696
+TEXAS,5,Lance Gooden,Republican,192185
+TEXAS,5,Ruth “Truth” Torres,Democrat,107712
+TEXAS,6,Jake Ellzey,Republican,188119
+TEXAS,6,John Love III,Democrat,98319
+TEXAS,7,Caroline Kane,Republican,94651
+TEXAS,7,Lizzie Fletcher,Democrat,149820
+TEXAS,8,Morgan Luttrell,Republican,233423
+TEXAS,8,Laura Jones,Democrat,108754
+TEXAS,9,Al Green,Democrat,184141
+TEXAS,10,Michael T. McCaul,Republican,221229
+TEXAS,10,Theresa Boisseau,Democrat,118280
+TEXAS,10,Jeff Miller,Libertarian,8309
+TEXAS,11,August Pfluger,Republican,211975
+TEXAS,12,Craig Goldman,Republican,215564
+TEXAS,12,Trey J. Hunt,Democrat,124154
+TEXAS,13,Ronny Jackson,Republican,240622
+TEXAS,14,Randy K. Weber Sr.,Republican,210320
+TEXAS,14,Rhonda Hart,Democrat,95875
+TEXAS,15,Monica De La Cruz,Republican,127804
+TEXAS,15,Michelle Vallejo,Democrat,95965
+TEXAS,16,Irene Armendariz Jackson,Republican,89281
+TEXAS,16,Veronica Escobar,Democrat,131391
+TEXAS,16,D. “DMB” Montanez,Write-in,156
+TEXAS,17,Pete Sessions,Republican,193101
+TEXAS,17,Mark Lorenzen,Democrat,97941
+TEXAS,18,Lana Centonze,Republican,66810
+TEXAS,18,Sylvester Turner,Democrat,151834
+TEXAS,18,Vince Duncan,Write-in,62
+TEXAS,18,Kevin Dural,Write-in,14
+TEXAS,19,Jodey C. Arrington,Republican,214950
+TEXAS,19,Nathan Lewis,Independent,27461
+TEXAS,19,Bernard Johnson,Libertarian,23964
+TEXAS,20,Joaquin Castro,Democrat,157890
+TEXAS,21,Chip Roy,Republican,263744
+TEXAS,21,Kristin Hook,Democrat,153765
+TEXAS,21,Bob King,Libertarian,8914
+TEXAS,22,Troy E. Nehls,Republican,209285
+TEXAS,22,Marquette Greene-Scott,Democrat,127604
+TEXAS,23,Tony Gonzales,Republican,180720
+TEXAS,23,S. Limon,Democrat,109373
+TEXAS,24,Beth Van Duyne,Republican,227108
+TEXAS,24,Sam Eppler,Democrat,149518
+TEXAS,25,Roger Williams,Republican,263042
+TEXAS,25,Chad Hagg,Write-in,1661
+TEXAS,26,Brandon Gill,Republican,241096
+TEXAS,26,Ernest R. Lineberger III,Democrat,138558
+TEXAS,26,Phil Gray,Libertarian,8773
+TEXAS,27,Michael Cloud,Republican,183980
+TEXAS,27,Tanya Lloyd,Democrat,94596
+TEXAS,28,Jay Furman,Republican,112018
+TEXAS,28,Henry Cuellar,Democrat,125280
+TEXAS,29,Alan Garza,Republican,52830
+TEXAS,29,Sylvia R. Garcia,Democrat,99379
+TEXAS,30,Jasmine Crockett,Democrat,197650
+TEXAS,30,Jrmar “J J” Jefferson,Libertarian,35175
+TEXAS,31,John R. Carter,Republican,229087
+TEXAS,31,Stuart Whitlow,Democrat,126470
+TEXAS,32,Darrell Day,Republican,85941
+TEXAS,32,Julie Johnson,Democrat,140536
+TEXAS,32,Kevin A. Hale,Libertarian,5987
+TEXAS,33,Patrick David Gillespie,Republican,51864
+TEXAS,33,Marc A. Veasey,Democrat,114289
+TEXAS,34,Mayra Flores,Republican,97603
+TEXAS,34,Vicente Gonzalez,Democrat,102780
+TEXAS,35,Steven Wright,Republican,82610
+TEXAS,35,Greg Casar,Democrat,170509
+TEXAS,36,Brian Babin,Republican,206009
+TEXAS,36,Dayna Steele,Democrat,91009
+TEXAS,37,Jenny Garcia Sharon,Republican,80366
+TEXAS,37,Lloyd Doggett,Democrat,252980
+TEXAS,37,Girish Altekar,Libertarian,7511
+TEXAS,38,Wesley Hunt,Republican,215030
+TEXAS,38,Melissa McDonough,Democrat,127640
+TEXAS,38,Avery Ayers,Write-in,94
+UTAH,1,Blake D. Moore,Republican,230975
+UTAH,1,Bill Campbell,Democrat,117319
+UTAH,1,Daniel R. Cottam,Libertarian,17601
+UTAH,2,Celeste Maloy,Republican,205234
+UTAH,2,Nathaniel E. Woodward,Democrat,121114
+UTAH,2,Cassie Easley,Constitution,19650
+UTAH,2,Tyler Murset,Unaffiliated,7840
+UTAH,3,Mike Kennedy,Republican,242496
+UTAH,3,Glenn J. Wright,Democrat,122780
+UTAH,4,Burgess Owens,Republican,230627
+UTAH,4,Katrina Fallick-Wang,Democrat,109838
+UTAH,4,Vaughn R. Cook,United Utah,17347
+UTAH,4,M. Evan Bullard,Unaffiliated,5856
+VERMONT,AT LARGE,Mark Coester,Republican  Libertarian,104451
+VERMONT,AT LARGE,Becca Balint,Democrat,218398
+VERMONT,AT LARGE,Adam Ortiz,Independent,19286
+VERMONT,AT LARGE,Jill “Jessy” Diamondstone,Green Mountain Peace and Justice,7552
+VERMONT,AT LARGE,None,None,21982
+VERMONT,AT LARGE,None,None,929
+VERMONT,AT LARGE,None,None,287
+VIRGINIA,1,Robert J. Wittman,Republican,269657
+VIRGINIA,1,Leslie C. Mehta,Democrat,208445
+VIRGINIA,1,None,None,804
+VIRGINIA,2,Jennifer A. Kiggans,Republican,207368
+VIRGINIA,2,Missy Cotter Smasal,Democrat,191666
+VIRGINIA,2,Robert E. Reid Jr.,Independent,9197
+VIRGINIA,2,None,None,471
+VIRGINIA,3,John Sitka III,Republican,93801
+VIRGINIA,3,Robert C. “Bobby” Scott,Democrat,219926
+VIRGINIA,3,None,None,670
+VIRGINIA,4,William J. “Bill” Moher III,Republican,121814
+VIRGINIA,4,Jennifer L. McClellan,Democrat,252885
+VIRGINIA,4,None,None,809
+VIRGINIA,5,John J. McGuire III,Republican,249564
+VIRGINIA,5,Gloria Tinsley Witt,Democrat,184229
+VIRGINIA,5,None,None,2046
+VIRGINIA,6,Ben Cline,Republican,256933
+VIRGINIA,6,Ken L. Mitchell,Democrat,141612
+VIRGINIA,6,Robert C. “Robby” Wells Jr.,Independent,7980
+VIRGINIA,6,None,None,510
+VIRGINIA,7,Derrick M. Anderson,Republican,192847
+VIRGINIA,7,Eugene S. Vindman,Democrat,203336
+VIRGINIA,7,None,None,1116
+VIRGINIA,8,Jerry W. Torres,Republican,94676
+VIRGINIA,8,Donald S. Beyer Jr.,Democrat,274593
+VIRGINIA,8,David R. Kennedy,Independent,9956
+VIRGINIA,8,Bentley F. Hensel,Independent,3656
+VIRGINIA,8,None,None,1034
+VIRGINIA,9,H. Morgan Griffith,Republican,290645
+VIRGINIA,9,Karen G. H. Baker,Democrat,109570
+VIRGINIA,9,None,None,748
+VIRGINIA,10,Mike W. Clancy,Republican,196343
+VIRGINIA,10,Suhas Subramanyam,Democrat,215131
+VIRGINIA,10,None,None,1538
+VIRGINIA,11,Mike L. Van Meter,Republican,134802
+VIRGINIA,11,Gerald E. Connolly,Democrat,273529
+VIRGINIA,11,None,None,1855
+WASHINGTON,1,Jeb Brewer,Republican,132538
+WASHINGTON,1,Suzan K. DelBene,Democrat,227213
+WASHINGTON,1,None,None,907
+WASHINGTON,2,Cody Hart,Republican,148167
+WASHINGTON,2,Rick Larsen,Democrat,263750
+WASHINGTON,2,None,None,1303
+WASHINGTON,3,Joe Kent,Republican,199054
+WASHINGTON,3,Marie Gluesenkamp Perez,Democrat,215177
+WASHINGTON,3,None,None,1673
+WASHINGTON,4,Dan Newhouse,Republican,153477
+WASHINGTON,4,Jerrod Sessler,Republican,136175
+WASHINGTON,4,None,None,5400
+WASHINGTON,5,Michael Baumgartner,Republican,240619
+WASHINGTON,5,Carmela Conroy,Democrat,156074
+WASHINGTON,5,None,None,593
+WASHINGTON,6,Drew C. MacEwen,Republican,182182
+WASHINGTON,6,Emily Randall,Democrat,239687
+WASHINGTON,6,None,None,753
+WASHINGTON,7,Dan Alexander,Republican,66220
+WASHINGTON,7,Pramila Jayapal,Democrat,352286
+WASHINGTON,7,None,None,1313
+WASHINGTON,8,Carmen Goers,Republican,190675
+WASHINGTON,8,Kim Schrier,Democrat,224607
+WASHINGTON,8,None,None,995
+WASHINGTON,9,Adam Smith,Democrat,182780
+WASHINGTON,9,Melissa Chaudhry,Democrat,90601
+WASHINGTON,9,None,None,5917
+WASHINGTON,10,Don Hewett,Republican,143492
+WASHINGTON,10,Marilyn Strickland,Democrat,203732
+WASHINGTON,10,None,None,820
+WEST VIRGINIA,1,Carol D. Miller,Republican,228491
+WEST VIRGINIA,1,Chris Bob Reed,Democrat,90038
+WEST VIRGINIA,1,Wes Holden,Independent,25616
+WEST VIRGINIA,1,Jim Umberger,Write-in,171
+WEST VIRGINIA,1,A. Warden,Write-in,3
+WEST VIRGINIA,2,Riley Moore,Republican,268190
+WEST VIRGINIA,2,Steven Wendelin,Democrat,110775
+WISCONSIN,1,Bryan Steil,Republican,212515
+WISCONSIN,1,Peter Barca,Democrat,172402
+WISCONSIN,1,Chester Todd Jr.,Green,8191
+WISCONSIN,1,None,None,385
+WISCONSIN,2,Erik Olsen,Republican,136357
+WISCONSIN,2,Mark Pocan,Democrat,320317
+WISCONSIN,2,None,None,583
+WISCONSIN,3,Derrick Van Orden,Republican,212064
+WISCONSIN,3,Rebecca Cooke,Democrat,200808
+WISCONSIN,3,None,None,309
+WISCONSIN,4,Tim Rogers,Republican,74921
+WISCONSIN,4,Gwen Moore,Democrat,249938
+WISCONSIN,4,Robert R. Raymond,Independent,8792
+WISCONSIN,4,Micah Leavitt,Write-in,13
+WISCONSIN,4,None,None,618
+WISCONSIN,5,Scott Fitzgerald,Republican,300521
+WISCONSIN,5,Ben Steinhoff,Democrat,165653
+WISCONSIN,5,None,None,508
+WISCONSIN,6,Glenn Grothman,Republican,251889
+WISCONSIN,6,John Zarbano,Democrat,159042
+WISCONSIN,6,None,None,418
+WISCONSIN,7,Thomas P. Tiffany,Republican,273553
+WISCONSIN,7,Kyle Kilbourn,Democrat,156524
+WISCONSIN,7,None,None,307
+WISCONSIN,8,Tony Wied,Republican,240040
+WISCONSIN,8,Kristin Lyerly,Democrat,178666
+WISCONSIN,8,None,None,272
+WYOMING,AT LARGE,Harriet M. Hageman,Republican,184680
+WYOMING,AT LARGE,Kyle G. Cameron,Democrat,60778
+WYOMING,AT LARGE,Richard Brubaker,Libertarian,9223
+WYOMING,AT LARGE,Jeffrey Haggit,Constitution,5362
+WYOMING,AT LARGE,None,None,7999
+WYOMING,AT LARGE,None,None,1576
+WYOMING,AT LARGE,None,None,1505
+GUAM,DELEGATE,James C. Moylan,Republican,15573
+GUAM,DELEGATE,Ginger Cruz,Democrat,13829
+GUAM,DELEGATE,None,None,628
+GUAM,DELEGATE,None,None,149
+GUAM,DELEGATE,None,None,104
+VIRGIN ISLANDS,DELEGATE,Ronald Pickard,Republican,1348
+VIRGIN ISLANDS,DELEGATE,Stacey E. Plaskett,Democrat,10397
+VIRGIN ISLANDS,DELEGATE,Ida Smith,Independent,2323
+VIRGIN ISLANDS,DELEGATE,None,None,99
+NORTHERN MARIANA ISLANDS,DELEGATE,Kimberlyn Kay King-Hinds,Republican,4931
+NORTHERN MARIANA ISLANDS,DELEGATE,Edwin Kenneth Propst,Democrat,4067
+NORTHERN MARIANA ISLANDS,DELEGATE,John Oliver Delos Reyes Gonzales,Independent,2282
+NORTHERN MARIANA ISLANDS,DELEGATE,James Michael Rayphand,Independent,665
+NORTHERN MARIANA ISLANDS,DELEGATE,Liana Sablan Hofschneider,Independent,280
+DISTRICT OF COLUMBIA,DELEGATE,Myrtle Patricia Alexander,Republican,19765
+DISTRICT OF COLUMBIA,DELEGATE,Eleanor Holmes Norton,Democrat,251540
+DISTRICT OF COLUMBIA,DELEGATE,Kymone Freeman,Statehood Green,21873
+DISTRICT OF COLUMBIA,DELEGATE,Michael A. Brown,Independent,19033
+DISTRICT OF COLUMBIA,DELEGATE,None,None,13774
+DISTRICT OF COLUMBIA,DELEGATE,None,None,1858
+DISTRICT OF COLUMBIA,DELEGATE,None,None,561
+AMERICAN SAMOA,DELEGATE,Aumua Amata Coleman Radewagen,Republican,7394
+AMERICAN SAMOA,DELEGATE,Luisa Kuaea,Democrat,1840
+AMERICAN SAMOA,DELEGATE,Meleagi Suitonu-Chapman,Democrat,185
+AMERICAN SAMOA,DELEGATE,Fualaau Rosie Tago Lancaster,Independent,469
+PUERTO RICO,RESIDENT COMMISSIONER,Pablo José Hernández Rivera,Popular Democratic Party,530540
+PUERTO RICO,RESIDENT COMMISSIONER,William Villafañe,New Progressive Party,452615
+PUERTO RICO,RESIDENT COMMISSIONER,Ana Irma Rivera Lassén,Citizen’s Victory Movement,115710
+PUERTO RICO,RESIDENT COMMISSIONER,Viviana Ramírez Morales,Project Dignity,60512
+PUERTO RICO,RESIDENT COMMISSIONER,Roberto Karlo Velázquez Correa,Puerto Rican Independence Party,60161
+PUERTO RICO,RESIDENT COMMISSIONER,None,None,3305
+PUERTO RICO,RESIDENT COMMISSIONER,None,None,1592
+PUERTO RICO,RESIDENT COMMISSIONER,None,None,624
