@@ -1,5 +1,6 @@
 
 1. Investigate todo file formats. :)
-2. Write procure_data.py to download CLerk's pdf and census cd zip files.
-3. Get rolling on streamlit.
-
+DONE 2. Write procure_data.py to download CLerk's pdf and census cd zip files.
+3. Make a README.md.
+4. Get rolling on streamlit.
+5. Work on notes_about_projections.txt

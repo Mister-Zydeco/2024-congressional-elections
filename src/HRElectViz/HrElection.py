@@ -1,5 +1,11 @@
+from datetime import datetime
 import polars as pl
 import HRElectViz.ushelper as ush
+
+
+def get_most_recent_house_election_year() -> int:
+    year: int = datetime.now().year
+    return year - 2 if year % 2 == 0 else year - 1
 
 # The District field from the scrape of Hose Clerk data is a two-digit
 # string (district number) for states with more than one district; the
@@ -89,7 +95,7 @@ class HrElection:
 
     def get_ndistricts_per_state(self) -> pl.DataFrame:
         df: pl.DataFrame = (
-            self.dfs['states'].select(SD_COLS).unique()
+            self.dfs['states_and_territories'].select(SD_COLS).unique()
             .group_by('State\nAbbr')
             .agg(pl.len().alias('Number of\nDistricts'))
         )
@@ -98,7 +104,7 @@ class HrElection:
 
     def get_districts_ranked_by_vote(self) -> pl.DataFrame:
         df: pl.DataFrame = (
-            self.dfs['states']
+            self.dfs['states_and_territories']
             .sort(SD_COLS + ['Vote'], descending=[False, False, True])
             .select(
                 SD_COLS
@@ -182,7 +188,7 @@ class HrElection:
 
     def get_aggregate_vote_by_state(self) -> pl.DataFrame:
         df: pl.DataFrame = (
-            self.dfs['states']
+            self.dfs['states_and_territories']
             .group_by('State\nAbbr', maintain_order=True)
             .agg(
                 [
@@ -211,7 +217,7 @@ class HrElection:
 
     def get_aggregate_vote_by_district(self) -> pl.DataFrame:
         df: pl.DataFrame = (
-            self.dfs['states']
+            self.dfs['states_and_territories']
             .group_by(SD_COLS, maintain_order=True)
             .agg(
                 [
@@ -226,16 +232,17 @@ class HrElection:
                 ]
             )
             .with_columns(
-                (pl.col('District Vote\nDemocrat') + pl.col('District Vote\nRepublican')).alias(
-                    'District Vote\nBoth Parties'
+                (pl.col('District Vote\nDemocrat')
+                    + pl.col('District Vote\nRepublican')).alias(
+                    'District Vote\nMajor Parties'
                 )
             )
             .with_columns(
                 ((pl.col('District Vote\nDemocrat')
-                    / pl.col('District Vote\nBoth Parties'))
+                    / pl.col('District Vote\nMajor Parties'))
                   * 100).round(1).alias('District Vote %\nDemocrat'),
                 ((pl.col('District Vote\nRepublican')
-                  / pl.col('District Vote\nBoth Parties'))
+                  / pl.col('District Vote\nMajor Parties'))
                   * 100).round(1).alias('District Vote %\nRepublican')
             )
         )

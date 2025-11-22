@@ -1,6 +1,7 @@
 from HRElectViz.HrElection import HrElection
+from HRElectViz.GerryMeter import GerryMeter
 if __name__ == '__main__':
-    dfnames = [
+    vote_dfnames = [
         'aggregate_vote_by_district',
         'aggregate_vote_by_state',
         'district_major_party_vote',
@@ -15,7 +16,7 @@ if __name__ == '__main__':
 
     district_cols: set[str] = set()
     state_cols: set[str] = set()
-    for dfname in dfnames:
+    for dfname in vote_dfnames:
         method = getattr(hrelect, f'get_{dfname}')
         df = method()
         if dfname == 'district_winners':
@@ -33,3 +34,9 @@ if __name__ == '__main__':
     for name, df in hrelect.dfs.items():
         if 'Democrat\nVote' in df.columns:
             print(name)
+
+    gerry_meter = GerryMeter(hrelect)
+    gerry_meter.get_gerrymander_metrics()
+
+    for dfname, df in gerry_meter.dfs.items():
+        print(f'columns of {dfname}: {df.columns}')

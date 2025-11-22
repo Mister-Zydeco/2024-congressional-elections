@@ -1,10 +1,36 @@
 
-The International Association of Oil and Gas Producers maintains a
-goeodosy dataset called EPSG (European Petroleum Survey Group
+Alphabet Soup and Lingusitic Oddities
 
+geodosy: the science of measuring the earth's surface and assigning
+coordinates to points on it
+
+WGS 84: World Geodetic System 1984
+IOGP: International Association of Oil and Gas Producers
+EPSG: European Petroleum Survey Group
+
+
+A geodosy coordinate system is called a "datum", a Latin word meaning
+"a thing that is given.". The Latin plural of this word is "data", which
+obviously has entered English in a big way. And in order to avoid confusion,
+we need an English plural of a Latin word.
+
+And so we say:
+
+The International Association of Oil and Gas Producers maintains 
+abd catalogs various datums. Each datum has an index called its "EPSG
+number". 
+
+Luckily for us, the Python package  pyproj handles the conversion of
+earth geometry from one datum to another. We designate a datum to pyproj
+by its EPSG number in string form "epsg:XXXX". Literature will more often
+use the form "EPSG:XXXX".
+
+There are two main types of datums: longitude/latitude and projected.
 The shapefiles in map-data-ntad use the WGS 84 Pseudo-Mercator projection
 (EPSG:3857).
 
+plotly wants geodata in a longitude/latitude coordinate system
+(e.g. EPSG:4326).
 We are going to inverse-project it to longitude/latitude
 (EPSG:4326).
 
