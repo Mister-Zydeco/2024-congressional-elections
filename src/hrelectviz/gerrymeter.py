@@ -1,7 +1,7 @@
 import re
 import polars as pl
 
-from HRElectViz.HrElection import HrElection, std_polars_config
+from hrelectviz.hrelection import HrElection, std_polars_config
 
 major_parties = ['Democrat', 'Republican']
 gm_column_names = {

@@ -7,7 +7,7 @@ import shapefile as shpf
 from pyproj import Transformer
 from shapely.geometry import mapping, shape
 
-import HRElectViz.ushelper as ush
+import hrelectviz.ushelper as ush
 
 type GeoJSONfcb = shpf.GeoJSONFeatureCollectionWithBBox
 
