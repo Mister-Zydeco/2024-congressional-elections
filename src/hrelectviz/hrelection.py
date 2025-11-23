@@ -1,6 +1,6 @@
 from datetime import datetime
 import polars as pl
-import HRElectViz.ushelper as ush
+import hrelectviz.ushelper as ush
 
 
 def get_most_recent_house_election_year() -> int:
