@@ -58,7 +58,7 @@ class HrElection:
         is_at_large_x = pl.col('State\nAbbr').is_in(ush.at_large_states_abbrs)
         is_territory_x = pl.col('State\nAbbr').is_in(ush.territory_abbrs)
 
-        house_clerk_csv_path = f'../../election-data/elections{year}.csv'
+        house_clerk_csv_path = f'./election-data/elections{year}.csv'
         self.dfs = {}
         df = (
             pl.read_csv(house_clerk_csv_path)

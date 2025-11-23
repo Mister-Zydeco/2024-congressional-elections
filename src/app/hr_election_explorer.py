@@ -66,7 +66,7 @@ if __name__ == '__main__':
     metric_df = load_data()
     plot_df = get_plot_df_for_metric(metric_df, metric_code, party)
     gd = get_districts_geodata(
-        '../../map-data-census/tl_2024_us_state.shp', 'epsg:4269')
+        './map-data-census/tl_2024_us_state.shp', 'epsg:4269')
     fig = make_plotly_representation_of_metric(
         plot_df, gd, metric_code, party, year)
 
