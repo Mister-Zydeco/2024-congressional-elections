@@ -3,12 +3,12 @@ import os
 import altair as alt
 import polars as pl
 
-from HRElectViz.DistrictsGeoData import DistrictsGeoData
-from HRElectViz.GerryMeter import GerryMeter
-from HRElectViz.HrElection import HrElection, std_polars_config
+from hrelectviz.districtsgeodata import DistrictsGeoData
+from hrelectviz.gerrymeter import GerryMeter
+from hrelectviz.hrelection import HrElection, std_polars_config
 
 os.environ['DC_STATEHOOD'] = '1'
-from HRElectViz import ushelper as ush
+from hrelectviz import ushelper as ush
 
 dem_partisan_bias = 'Partisan\nbias towards\nDemocrats'
 new_dem_bias = 'Democrat-leaning bias'

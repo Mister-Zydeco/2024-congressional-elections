@@ -2,10 +2,10 @@ import plotly.express as px  # type: ignore
 import plotly.graph_objects as go   # type: ignore
 import polars as pl
 
-import HRElectViz.ushelper as ush
-from HRElectViz.HrElection import HrElection
-from HRElectViz.DistrictsGeoData import DistrictsGeoData
-from HRElectViz.GerryMeter import GerryMeter
+import hrelectviz.ushelper as ush
+from hrelectviz.hrelection import HrElection
+from hrelectviz.districtsgeodata import DistrictsGeoData
+from hrelectviz.gerrymeter import GerryMeter
 
 def get_skew_column_name(party: str) -> str:
     return f'Representation - Vote,\n{party}'

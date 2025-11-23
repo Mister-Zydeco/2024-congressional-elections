@@ -1,7 +1,7 @@
 import polars as pl
 
-from HRElectViz.DistrictsGeoData import DistrictsGeoData
-from HRElectViz.HrElection import HrElection, std_polars_config
+from hrelectviz.districtsgeodata import DistrictsGeoData
+from hrelectviz.hrelection import HrElection, std_polars_config
 
 if __name__ == '__main__':
     hr_elect_dfs: HrElection = HrElection()

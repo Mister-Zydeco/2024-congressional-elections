@@ -3,10 +3,10 @@ import plotly.express as px  # type: ignore
 import plotly.graph_objects as go   # type: ignore
 import polars as pl
 
-import HRElectViz.ushelper as ush
-from HRElectViz.HrElection import HrElection
-from HRElectViz.DistrictsGeoData import DistrictsGeoData
-from HRElectViz.GerryMeter import GerryMeter, major_parties
+import hrelectviz.ushelper as ush
+from hrelectviz.hrelection import HrElection
+from hrelectviz.districtsgeodata import DistrictsGeoData
+from hrelectviz.gerrymeter import GerryMeter, major_parties
 
 nl = '\n'
 color_column_names: dict[str, dict[str, str]] = {

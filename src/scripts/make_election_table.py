@@ -1,5 +1,5 @@
 
-from HRElectViz.HrElection import HrElection,std_polars_config
+from hrelectviz.hrelection import HrElection,std_polars_config
 from great_tables import GT, html
 import pickle
 

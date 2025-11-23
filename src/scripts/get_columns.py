@@ -1,5 +1,5 @@
-from HRElectViz.HrElection import HrElection
-from HRElectViz.GerryMeter import GerryMeter
+from hrelectviz.hrelection import HrElection
+from hrelectviz.gerrymeter import GerryMeter
 if __name__ == '__main__':
     vote_dfnames = [
         'aggregate_vote_by_district',
