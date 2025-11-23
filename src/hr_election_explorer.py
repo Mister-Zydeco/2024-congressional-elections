@@ -4,8 +4,8 @@ import os
 from datetime import datetime
 import streamlit as st
 import polars as pl
-import HRElectViz.HrElection as hre
-from HRElectViz.GerryMeter import shorten_column_name, gm_column_names
+import hrelectviz.hrelection as hre
+from hrelectviz.gerrymeter import shorten_column_name, gm_column_names
 from scripts.gerrymander_metrics_plotly import (
     get_gerrymander_metrics, get_districts_geodata, get_plot_df_for_metric,
     make_plotly_representation_of_metric
